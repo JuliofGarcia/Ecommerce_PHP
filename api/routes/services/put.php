@@ -8,11 +8,14 @@ if (isset($_GET["id"]) && isset($_GET["nameId"])) {
 
     $data = array();
     parse_str(file_get_contents('php://input'), $data);
+
+
     $columns = array();
     foreach (array_keys($data) as $key => $value) {
         array_push($columns, $value);
     }
-
+array_push($columns, $_GET["nameId"]);
+$columns=array_unique($columns);
 
  /*Validar la tabla y las columnas*/
 

@@ -1,5 +1,6 @@
 <?php
 require_once "connection.php";
+require_once "get.model.php";
 
 class Put_model
 {
@@ -7,6 +8,15 @@ class Put_model
     /*Peticion Put para editar datos de forma dimanica/*/
     static public function putData($table, $data, $id, $nameId)
     {
+        /**
+         * @var mixed
+         */
+        $response = Get_model::getDataFilter($table, $nameId, $nameId, $id, null, null, null, null);
+
+        if (empty($response)) {
+
+            return null;
+        }
 
         $set = "";
         foreach ($data as $key => $value) {
@@ -26,7 +36,7 @@ class Put_model
         if ($stmt->execute()) {
             $response = array(
 
-                "Comment" => "success",
+                "Comment" => "success"
             );
             return $response;
         } else {

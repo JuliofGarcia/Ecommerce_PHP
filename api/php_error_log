@@ -70,3 +70,23 @@ Stack trace:
 #5 C:\xampp\htdocs\ecommerce\api\index.php(13): Routescontroller->index()
 #6 {main}
   thrown in C:\xampp\htdocs\ecommerce\api\models\put.model.php on line 25
+[06-Nov-2024 19:05:41 Europe/Berlin] PHP Warning:  Undefined variable $null in C:\xampp\htdocs\ecommerce\api\models\put.model.php on line 12
+[06-Nov-2024 19:05:41 Europe/Berlin] PHP Warning:  Undefined variable $null in C:\xampp\htdocs\ecommerce\api\models\put.model.php on line 12
+[06-Nov-2024 19:05:41 Europe/Berlin] PHP Warning:  Undefined variable $null in C:\xampp\htdocs\ecommerce\api\models\put.model.php on line 12
+[06-Nov-2024 19:05:41 Europe/Berlin] PHP Warning:  Undefined variable $null in C:\xampp\htdocs\ecommerce\api\models\put.model.php on line 12
+[06-Nov-2024 19:05:41 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: explode(): Argument #2 ($string) must be of type string, array given in C:\xampp\htdocs\ecommerce\api\models\get.model.php:59
+Stack trace:
+#0 C:\xampp\htdocs\ecommerce\api\models\get.model.php(59): explode(',', Array)
+#1 C:\xampp\htdocs\ecommerce\api\models\put.model.php(12): Get_model::getDataFilter('courses', Array, 'id_course', '89', NULL, NULL, NULL, NULL)
+#2 C:\xampp\htdocs\ecommerce\api\controllers\put.controller.php(8): Put_model::putData('courses', Array, '89', 'id_course')
+#3 C:\xampp\htdocs\ecommerce\api\routes\services\put.php(35): Put_controller::putData('courses', Array, '89', 'id_course')
+#4 C:\xampp\htdocs\ecommerce\api\routes\routes.php(35): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\ecommerce\api\controllers\routescontroller.php(5): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\ecommerce\api\index.php(13): Routescontroller->index()
+#7 {main}
+  thrown in C:\xampp\htdocs\ecommerce\api\models\get.model.php on line 59
+[06-Nov-2024 19:06:25 Europe/Berlin] PHP Parse error:  syntax error, unexpected token ",", expecting ")" in C:\xampp\htdocs\ecommerce\api\models\put.model.php on line 12
+[06-Nov-2024 19:07:47 Europe/Berlin] PHP Warning:  Undefined variable $null in C:\xampp\htdocs\ecommerce\api\models\put.model.php on line 14
+[06-Nov-2024 19:07:47 Europe/Berlin] PHP Warning:  Undefined variable $null in C:\xampp\htdocs\ecommerce\api\models\put.model.php on line 14
+[06-Nov-2024 19:07:47 Europe/Berlin] PHP Warning:  Undefined variable $null in C:\xampp\htdocs\ecommerce\api\models\put.model.php on line 14
+[06-Nov-2024 19:07:47 Europe/Berlin] PHP Warning:  Undefined variable $null in C:\xampp\htdocs\ecommerce\api\models\put.model.php on line 14
