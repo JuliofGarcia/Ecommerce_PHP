@@ -1,13 +1,16 @@
 <?php
-require_once "models/post.model.php";
-class Post_controller
+require_once "models/put.model.php";
+class Put_controller
 {
-
-    static public function postData($table, $data)
+    /** PETIICIONES PUT PARA EDITAR DATOS     */
+    static public function putData($table, $data,$id,$nameId)
     {
-        $response = Post_model::postData($table, $data);
-        $return = new Post_controller();
+        $response = Put_model::putData($table, $data,$id,$nameId);
+    
+        $return = new Put_controller();
         $return->fncResponse($response);
+
+
     }
 
     public function fncResponse($response)
@@ -17,13 +20,13 @@ class Post_controller
             $json = array(
                 "status" => 200,
                 "message" => $response,
-               
+            
             );
         } else {
             $json = array(
                 "status" => 404,
                 "message" => "Not found",
-                 "method" => "post"
+                    "method" => "put"
             );
         }
         echo json_encode($json, http_response_code($json["status"]));

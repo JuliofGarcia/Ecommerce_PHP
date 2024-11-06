@@ -32,16 +32,8 @@ if (count($routesArray) == 1 && isset($_SERVER["REQUEST_METHOD"])) {
 
     /* PETICIONES PUT */
     if ($_SERVER["REQUEST_METHOD"] == "PUT") {
-        $json = array(
-            "status" => 200,
-            "message" => "Success PUT"
-        );
-
-        echo json_encode($json, http_response_code($json["status"]));
-
-        return;
+      include "services/put.php";
     }
-
     /* PETICIONES DELETE */
     if ($_SERVER["REQUEST_METHOD"] == "DELETE") {
         $json = array(

@@ -1,0 +1,72 @@
+[06-Nov-2024 17:20:29 Europe/Berlin] PHP Parse error:  Unclosed '{' on line 19 in C:\xampp\htdocs\ecommerce\api\routes\routes.php on line 49
+[06-Nov-2024 17:44:35 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class "Put_controller" not found in C:\xampp\htdocs\ecommerce\api\routes\services\put.php:30
+Stack trace:
+#0 C:\xampp\htdocs\ecommerce\api\routes\routes.php(35): include()
+#1 C:\xampp\htdocs\ecommerce\api\controllers\routescontroller.php(5): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ecommerce\api\index.php(13): Routescontroller->index()
+#3 {main}
+  thrown in C:\xampp\htdocs\ecommerce\api\routes\services\put.php on line 30
+[06-Nov-2024 17:46:45 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class "Put_controller" not found in C:\xampp\htdocs\ecommerce\api\routes\services\put.php:30
+Stack trace:
+#0 C:\xampp\htdocs\ecommerce\api\routes\routes.php(35): include()
+#1 C:\xampp\htdocs\ecommerce\api\controllers\routescontroller.php(5): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ecommerce\api\index.php(13): Routescontroller->index()
+#3 {main}
+  thrown in C:\xampp\htdocs\ecommerce\api\routes\services\put.php on line 30
+[06-Nov-2024 17:47:33 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class "Put_controller" not found in C:\xampp\htdocs\ecommerce\api\routes\services\put.php:30
+Stack trace:
+#0 C:\xampp\htdocs\ecommerce\api\routes\routes.php(35): include()
+#1 C:\xampp\htdocs\ecommerce\api\controllers\routescontroller.php(5): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ecommerce\api\index.php(13): Routescontroller->index()
+#3 {main}
+  thrown in C:\xampp\htdocs\ecommerce\api\routes\services\put.php on line 30
+[06-Nov-2024 17:48:36 Europe/Berlin] PHP Warning:  require_once(controller/put.model.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\ecommerce\api\models\put.model.php on line 3
+[06-Nov-2024 17:48:36 Europe/Berlin] PHP Fatal error:  Uncaught Error: Failed opening required 'controller/put.model.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\ecommerce\api\models\put.model.php:3
+Stack trace:
+#0 C:\xampp\htdocs\ecommerce\api\controllers\put.controller.php(2): require_once()
+#1 C:\xampp\htdocs\ecommerce\api\routes\services\put.php(3): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ecommerce\api\routes\routes.php(35): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\ecommerce\api\controllers\routescontroller.php(5): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\ecommerce\api\index.php(13): Routescontroller->index()
+#5 {main}
+  thrown in C:\xampp\htdocs\ecommerce\api\models\put.model.php on line 3
+[06-Nov-2024 18:24:21 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens in C:\xampp\htdocs\ecommerce\api\models\put.model.php:25
+Stack trace:
+#0 C:\xampp\htdocs\ecommerce\api\models\put.model.php(25): PDOStatement->execute()
+#1 C:\xampp\htdocs\ecommerce\api\controllers\put.controller.php(8): Put_model::putData('courses', Array, '2', 'id_course')
+#2 C:\xampp\htdocs\ecommerce\api\routes\services\put.php(32): Put_controller::putData('courses', Array, '2', 'id_course')
+#3 C:\xampp\htdocs\ecommerce\api\routes\routes.php(35): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\ecommerce\api\controllers\routescontroller.php(5): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\ecommerce\api\index.php(13): Routescontroller->index()
+#6 {main}
+  thrown in C:\xampp\htdocs\ecommerce\api\models\put.model.php on line 25
+[06-Nov-2024 18:24:33 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens in C:\xampp\htdocs\ecommerce\api\models\put.model.php:25
+Stack trace:
+#0 C:\xampp\htdocs\ecommerce\api\models\put.model.php(25): PDOStatement->execute()
+#1 C:\xampp\htdocs\ecommerce\api\controllers\put.controller.php(8): Put_model::putData('courses', Array, '2', 'id_course')
+#2 C:\xampp\htdocs\ecommerce\api\routes\services\put.php(32): Put_controller::putData('courses', Array, '2', 'id_course')
+#3 C:\xampp\htdocs\ecommerce\api\routes\routes.php(35): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\ecommerce\api\controllers\routescontroller.php(5): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\ecommerce\api\index.php(13): Routescontroller->index()
+#6 {main}
+  thrown in C:\xampp\htdocs\ecommerce\api\models\put.model.php on line 25
+[06-Nov-2024 18:27:29 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens in C:\xampp\htdocs\ecommerce\api\models\put.model.php:25
+Stack trace:
+#0 C:\xampp\htdocs\ecommerce\api\models\put.model.php(25): PDOStatement->execute()
+#1 C:\xampp\htdocs\ecommerce\api\controllers\put.controller.php(8): Put_model::putData('courses', Array, '2', 'id_course')
+#2 C:\xampp\htdocs\ecommerce\api\routes\services\put.php(32): Put_controller::putData('courses', Array, '2', 'id_course')
+#3 C:\xampp\htdocs\ecommerce\api\routes\routes.php(35): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\ecommerce\api\controllers\routescontroller.php(5): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\ecommerce\api\index.php(13): Routescontroller->index()
+#6 {main}
+  thrown in C:\xampp\htdocs\ecommerce\api\models\put.model.php on line 25
+[06-Nov-2024 18:32:43 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens in C:\xampp\htdocs\ecommerce\api\models\put.model.php:25
+Stack trace:
+#0 C:\xampp\htdocs\ecommerce\api\models\put.model.php(25): PDOStatement->execute()
+#1 C:\xampp\htdocs\ecommerce\api\controllers\put.controller.php(8): Put_model::putData('courses', Array, '2', 'id_course')
+#2 C:\xampp\htdocs\ecommerce\api\routes\services\put.php(32): Put_controller::putData('courses', Array, '2', 'id_course')
+#3 C:\xampp\htdocs\ecommerce\api\routes\routes.php(35): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\ecommerce\api\controllers\routescontroller.php(5): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\ecommerce\api\index.php(13): Routescontroller->index()
+#6 {main}
+  thrown in C:\xampp\htdocs\ecommerce\api\models\put.model.php on line 25
