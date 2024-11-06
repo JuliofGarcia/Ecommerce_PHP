@@ -1,0 +1,15 @@
+[21-Sep-2024 04:39:19 Europe/Berlin] PHP Parse error:  syntax error, unexpected end of file, expecting "," or ";" in C:\xampp\htdocs\ecommerce\web\views\template.php on line 3
+[21-Sep-2024 05:00:28 Europe/Berlin] PHP Parse error:  syntax error, unexpected token "." in C:\xampp\htdocs\ecommerce\web\controllers\controller.template.php on line 17
+[21-Sep-2024 05:01:19 Europe/Berlin] PHP Parse error:  syntax error, unexpected token "." in C:\xampp\htdocs\ecommerce\web\controllers\controller.template.php on line 17
+[21-Sep-2024 06:14:33 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function http://ecommerce.com/() in C:\xampp\htdocs\ecommerce\web\views\template.php:21
+Stack trace:
+#0 C:\xampp\htdocs\ecommerce\web\controllers\controller.template.php(9): include()
+#1 C:\xampp\htdocs\ecommerce\web\index.php(13): templateController->index()
+#2 {main}
+  thrown in C:\xampp\htdocs\ecommerce\web\views\template.php on line 21
+[21-Sep-2024 06:14:36 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function http://ecommerce.com/() in C:\xampp\htdocs\ecommerce\web\views\template.php:21
+Stack trace:
+#0 C:\xampp\htdocs\ecommerce\web\controllers\controller.template.php(9): include()
+#1 C:\xampp\htdocs\ecommerce\web\index.php(13): templateController->index()
+#2 {main}
+  thrown in C:\xampp\htdocs\ecommerce\web\views\template.php on line 21
