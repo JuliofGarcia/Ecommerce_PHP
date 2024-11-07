@@ -90,3 +90,85 @@ Stack trace:
 [06-Nov-2024 19:07:47 Europe/Berlin] PHP Warning:  Undefined variable $null in C:\xampp\htdocs\ecommerce\api\models\put.model.php on line 14
 [06-Nov-2024 19:07:47 Europe/Berlin] PHP Warning:  Undefined variable $null in C:\xampp\htdocs\ecommerce\api\models\put.model.php on line 14
 [06-Nov-2024 19:07:47 Europe/Berlin] PHP Warning:  Undefined variable $null in C:\xampp\htdocs\ecommerce\api\models\put.model.php on line 14
+[07-Nov-2024 01:11:20 Europe/Berlin] PHP Warning:  Undefined variable $data in C:\xampp\htdocs\ecommerce\api\routes\services\delete.php on line 25
+[07-Nov-2024 01:11:20 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class "Get_model" not found in C:\xampp\htdocs\ecommerce\api\models\delete.model.php:14
+Stack trace:
+#0 C:\xampp\htdocs\ecommerce\api\controllers\delete.controller.php(8): Delete_model::deleteData('courses', NULL, '1')
+#1 C:\xampp\htdocs\ecommerce\api\routes\services\delete.php(25): Delete_controller::deleteData('courses', NULL, '1', 'id_course')
+#2 C:\xampp\htdocs\ecommerce\api\routes\routes.php(39): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\ecommerce\api\controllers\routescontroller.php(5): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\ecommerce\api\index.php(13): Routescontroller->index()
+#5 {main}
+  thrown in C:\xampp\htdocs\ecommerce\api\models\delete.model.php on line 14
+[07-Nov-2024 01:12:01 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class "Get_model" not found in C:\xampp\htdocs\ecommerce\api\models\delete.model.php:14
+Stack trace:
+#0 C:\xampp\htdocs\ecommerce\api\controllers\delete.controller.php(8): Delete_model::deleteData('courses', '1', 'id_course')
+#1 C:\xampp\htdocs\ecommerce\api\routes\services\delete.php(25): Delete_controller::deleteData('courses', '1', 'id_course')
+#2 C:\xampp\htdocs\ecommerce\api\routes\routes.php(39): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\ecommerce\api\controllers\routescontroller.php(5): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\ecommerce\api\index.php(13): Routescontroller->index()
+#5 {main}
+  thrown in C:\xampp\htdocs\ecommerce\api\models\delete.model.php on line 14
+[07-Nov-2024 01:12:57 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class "Get_model" not found in C:\xampp\htdocs\ecommerce\api\models\delete.model.php:14
+Stack trace:
+#0 C:\xampp\htdocs\ecommerce\api\controllers\delete.controller.php(8): Delete_model::deleteData('courses', '1', 'id_course')
+#1 C:\xampp\htdocs\ecommerce\api\routes\services\delete.php(25): Delete_controller::deleteData('courses', '1', 'id_course')
+#2 C:\xampp\htdocs\ecommerce\api\routes\routes.php(39): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\ecommerce\api\controllers\routescontroller.php(5): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\ecommerce\api\index.php(13): Routescontroller->index()
+#5 {main}
+  thrown in C:\xampp\htdocs\ecommerce\api\models\delete.model.php on line 14
+[07-Nov-2024 01:16:31 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class "Get_model" not found in C:\xampp\htdocs\ecommerce\api\models\delete.model.php:13
+Stack trace:
+#0 C:\xampp\htdocs\ecommerce\api\controllers\delete.controller.php(8): Delete_model::deleteData('courses', '1', 'id_course')
+#1 C:\xampp\htdocs\ecommerce\api\routes\services\delete.php(25): Delete_controller::deleteData('courses', '1', 'id_course')
+#2 C:\xampp\htdocs\ecommerce\api\routes\routes.php(39): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\ecommerce\api\controllers\routescontroller.php(5): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\ecommerce\api\index.php(13): Routescontroller->index()
+#5 {main}
+  thrown in C:\xampp\htdocs\ecommerce\api\models\delete.model.php on line 13
+[07-Nov-2024 01:17:11 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class "Get_model" not found in C:\xampp\htdocs\ecommerce\api\models\delete.model.php:13
+Stack trace:
+#0 C:\xampp\htdocs\ecommerce\api\controllers\delete.controller.php(8): Delete_model::deleteData('courses', '1', 'id_course')
+#1 C:\xampp\htdocs\ecommerce\api\routes\services\delete.php(25): Delete_controller::deleteData('courses', '1', 'id_course')
+#2 C:\xampp\htdocs\ecommerce\api\routes\routes.php(39): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\ecommerce\api\controllers\routescontroller.php(5): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\ecommerce\api\index.php(13): Routescontroller->index()
+#5 {main}
+  thrown in C:\xampp\htdocs\ecommerce\api\models\delete.model.php on line 13
+[07-Nov-2024 01:18:33 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class "Get_model" not found in C:\xampp\htdocs\ecommerce\api\models\delete.model.php:13
+Stack trace:
+#0 C:\xampp\htdocs\ecommerce\api\controllers\delete.controller.php(8): Delete_model::deleteData('courses', '1', 'id_course')
+#1 C:\xampp\htdocs\ecommerce\api\routes\services\delete.php(25): Delete_controller::deleteData('courses', '1', 'id_course')
+#2 C:\xampp\htdocs\ecommerce\api\routes\routes.php(39): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\ecommerce\api\controllers\routescontroller.php(5): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\ecommerce\api\index.php(13): Routescontroller->index()
+#5 {main}
+  thrown in C:\xampp\htdocs\ecommerce\api\models\delete.model.php on line 13
+[07-Nov-2024 01:20:36 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class "Get_model" not found in C:\xampp\htdocs\ecommerce\api\models\delete.model.php:13
+Stack trace:
+#0 C:\xampp\htdocs\ecommerce\api\controllers\delete.controller.php(8): Delete_model::deleteData('courses', '1', 'id_course')
+#1 C:\xampp\htdocs\ecommerce\api\routes\services\delete.php(25): Delete_controller::deleteData('courses', '1', 'id_course')
+#2 C:\xampp\htdocs\ecommerce\api\routes\routes.php(39): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\ecommerce\api\controllers\routescontroller.php(5): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\ecommerce\api\index.php(13): Routescontroller->index()
+#5 {main}
+  thrown in C:\xampp\htdocs\ecommerce\api\models\delete.model.php on line 13
+[07-Nov-2024 01:22:16 Europe/Berlin] PHP Warning:  require_once(get.model.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\ecommerce\api\controllers\delete.controller.php on line 3
+[07-Nov-2024 01:22:16 Europe/Berlin] PHP Fatal error:  Uncaught Error: Failed opening required 'get.model.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\ecommerce\api\controllers\delete.controller.php:3
+Stack trace:
+#0 C:\xampp\htdocs\ecommerce\api\routes\services\delete.php(3): require_once()
+#1 C:\xampp\htdocs\ecommerce\api\routes\routes.php(39): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ecommerce\api\controllers\routescontroller.php(5): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\ecommerce\api\index.php(13): Routescontroller->index()
+#4 {main}
+  thrown in C:\xampp\htdocs\ecommerce\api\controllers\delete.controller.php on line 3
+[07-Nov-2024 01:23:16 Europe/Berlin] PHP Warning:  require_once(get.model.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\ecommerce\api\controllers\delete.controller.php on line 3
+[07-Nov-2024 01:23:16 Europe/Berlin] PHP Fatal error:  Uncaught Error: Failed opening required 'get.model.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\ecommerce\api\controllers\delete.controller.php:3
+Stack trace:
+#0 C:\xampp\htdocs\ecommerce\api\routes\services\delete.php(3): require_once()
+#1 C:\xampp\htdocs\ecommerce\api\routes\routes.php(39): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ecommerce\api\controllers\routescontroller.php(5): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\ecommerce\api\index.php(13): Routescontroller->index()
+#4 {main}
+  thrown in C:\xampp\htdocs\ecommerce\api\controllers\delete.controller.php on line 3
