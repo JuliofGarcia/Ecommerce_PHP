@@ -4,7 +4,7 @@ require_once "controllers/post.controller.php";
 
 if (isset($_POST)) {
 
-     /*Separar propiedades en un arreglo*/
+    /*Separar propiedades en un arreglo*/
 
     $columns = array();
     foreach (array_keys($_POST) as $key => $value) {
@@ -23,9 +23,16 @@ if (isset($_POST)) {
 
         return;
     }
-
-    /*Solicitamos respuesta del controlador para crear datos en cualquier tabla*/
-
+    
     $response = new Post_controller();
-    $response->postData($table, $_POST);
+
+    /*Peticion POST para el registro de usuarios*/
+    if (isset($_GET["register"]) && $_GET["register"] == true) {
+        $suffix = $_GET["suffix"] ?? "user";
+        $response->postRegister($table, $_POST, $suffix);
+    } else {
+        /*Solicitamos respuesta del controlador para crear datos en cualquier tabla*/
+
+        $response->postData($table, $_POST);
+    }
 }

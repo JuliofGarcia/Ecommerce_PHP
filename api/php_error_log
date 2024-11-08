@@ -172,3 +172,11 @@ Stack trace:
 #3 C:\xampp\htdocs\ecommerce\api\index.php(13): Routescontroller->index()
 #4 {main}
   thrown in C:\xampp\htdocs\ecommerce\api\controllers\delete.controller.php on line 3
+[08-Nov-2024 19:41:23 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined method Post_model::postRegister() in C:\xampp\htdocs\ecommerce\api\controllers\post.controller.php:18
+Stack trace:
+#0 C:\xampp\htdocs\ecommerce\api\routes\services\post.php(31): Post_controller::postRegister('instructors', Array, 'instructor')
+#1 C:\xampp\htdocs\ecommerce\api\routes\routes.php(29): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ecommerce\api\controllers\routescontroller.php(5): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\ecommerce\api\index.php(13): Routescontroller->index()
+#4 {main}
+  thrown in C:\xampp\htdocs\ecommerce\api\controllers\post.controller.php on line 18
