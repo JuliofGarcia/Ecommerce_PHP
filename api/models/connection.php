@@ -77,4 +77,8 @@ if ($columns[0] == "*") {
             return $sum == count($columns) ? $validate : null;
         }
     }
+
+    static public function jwt($id,){
+
+    }
 }

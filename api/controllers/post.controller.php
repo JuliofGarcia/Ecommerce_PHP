@@ -1,4 +1,5 @@
 <?php
+require_once "models/get.model.php";
 require_once "models/post.model.php";
 class Post_controller
 {
@@ -7,20 +8,47 @@ class Post_controller
     {
         $response = Post_model::postData($table, $data);
         $return = new Post_controller();
-        $return->fncResponse($response);
+        $return->fncResponse($response,null);
     }
-    static public function postRegister($table, $data,$suffix)
+    static public function postLogin($table, $data,$suffix)
     {
-        if(isset($data["password_".$suffix]) && $data["password_".$suffix] !=null){
-            $cryp=crypt($data["password_".$suffix],'$2a$07$qwereqerqtw458151hhsdh$');
-            $data["password_".$suffix]=$cryp;
-            $response = Post_model::postData($table, $data);
-            $return = new Post_controller();
-            $return->fncResponse($response);
+        $response = Get_model::getDataFilter($table, "*", 
+        "email_".$suffix, $data["email_".$suffix], null, null, null, null);
+
+        if (!empty($response)) {
+$cryp=crypt($data["password_".$suffix],'$2a$07$qwereqerqtw458151hhsdh$');
+if($response[0]->{"password_".$suffix}==$cryp) {
+
+} else {
+    
+    $response =null;
+    $return =new Post_controller();
+    $return->fncResponse($response,"Wrong password");
+
+}        
+
+
+        }else{
+            $response =null;
+            $return =new Post_controller();
+            $return->fncResponse($response,"Wrong email");
         }
-       
+
     }
-    public function fncResponse($response)
+        static public function postRegister($table, $data,$suffix)
+        {
+            if(isset($data["password_".$suffix]) && $data["password_".$suffix] !=null){
+                $cryp=crypt($data["password_".$suffix],'$2a$07$qwereqerqtw458151hhsdh$');
+                $data["password_".$suffix]=$cryp;
+                $response = Post_model::postData($table, $data);
+                $return = new Post_controller();
+                $return->fncResponse($response,null);
+            }
+
+
+
+    }
+    public function fncResponse($response,$error)
     {
 
         if (!empty($response)) {
@@ -30,11 +58,20 @@ class Post_controller
                
             );
         } else {
-            $json = array(
-                "status" => 404,
-                "message" => "Not found",
-                 "method" => "post"
-            );
+            if ($error!=null) {
+                $json = array(
+                    "status" => 404,
+                    "message" => $error
+                  
+                );
+            }else{
+                $json = array(
+                    "status" => 404,
+                    "message" => "Not found",
+                     "method" => "post"
+                );
+            }
+           
         }
         echo json_encode($json, http_response_code($json["status"]));
     }
