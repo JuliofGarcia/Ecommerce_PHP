@@ -70,7 +70,7 @@ class Get_model
             return null;
         }
 
-        $equalToArray = explode("_", $equalTo);
+        $equalToArray = explode(",", $equalTo);
         $linkToText = "";
 
         if (count($linkToArray) > 1) {
@@ -188,7 +188,7 @@ class Get_model
         /*Organizacion de filtros*/
 
         $linkToArray = explode(",", $linkTo);
-        $equalToArray = explode("_", $equalTo);
+        $equalToArray = explode(",", $equalTo);
         $linkToText = "";
 
         if (count($linkToArray) > 1) {

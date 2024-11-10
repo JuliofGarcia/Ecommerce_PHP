@@ -28,7 +28,7 @@ class Post_model
             $response = array(
                 "lastId" => $link->lastInsertId(),
 
-                "status" => "success",
+                "Comment" => "success",
             );
             return $response;
         } else {

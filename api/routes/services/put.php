@@ -14,26 +14,77 @@ if (isset($_GET["id"]) && isset($_GET["nameId"])) {
     foreach (array_keys($data) as $key => $value) {
         array_push($columns, $value);
     }
-array_push($columns, $_GET["nameId"]);
-$columns=array_unique($columns);
+    array_push($columns, $_GET["nameId"]);
+    $columns = array_unique($columns);
 
- /*Validar la tabla y las columnas*/
+    /*Validar la tabla y las columnas*/
 
- if (empty(Connection::getColumnsData($table, $columns))) {
-    $json = array(
-        "status" => 404,
-        "message" => "Error: Fields in the form do not match the database"
-    );
+    if (empty(Connection::getColumnsData($table, $columns))) {
+        $json = array(
+            "status" => 404,
+            "message" => "Error: Fields in the form do not match the database"
+        );
 
-    echo json_encode($json, http_response_code($json["status"]));
+        echo json_encode($json, http_response_code($json["status"]));
 
-    return;
-}
-/* SOLICITAMOS RESPUESTA DEL CONTROLADOR PARA EDITAR DATOS EN CUALQUIER TABLA */
+        return;
+    }
 
-$response=new Put_controller();
-$response->putData($table,$data,$_GET["id"],$_GET["nameId"]);
+    if (isset($_GET["token"])) {
+
+        if ($_GET["token"] == "no" && isset($_GET["except"])) {
+
+            $columns = array($_GET["except"]);
+            if (empty(Connection::getColumnsData($table, $columns))) {
+                $json = array(
+                    "status" => 404,
+                    "message" => "Error: Fields in the form do not match the database"
+                );
+
+                echo json_encode($json, http_response_code($json["status"]));
+
+                return;
+            }
+         
+            $response = new Put_controller();
+            $response->putData($table, $data, $_GET["id"], $_GET["nameId"]);
+        } else {
+
+            $tableToken = $_GET["table"] ?? "users";
+            $suffix = $_GET["suffix"] ?? "user";
+            $validate = Connection::tokenValidate($_GET["token"], $tableToken, $suffix);
 
 
+            if ($validate == "OK") {
+                /* SOLICITAMOS RESPUESTA DEL CONTROLADOR PARA EDITAR DATOS EN CUALQUIER TABLA */
 
+                $response = new Put_controller();
+                $response->putData($table, $data, $_GET["id"], $_GET["nameId"]);
+            }
+
+            if ($validate == "EXPIRED") {
+                $json = array(
+                    "status" => 303,
+                    "message" => "Error : The token has expired"
+                );
+                echo json_encode($json, http_response_code($json['status']));
+                return;
+            }
+            if ($validate == "NO-AUTH") {
+                $json = array(
+                    "status" => 404,
+                    "message" => "Error : The user is not autorized"
+                );
+                echo json_encode($json, http_response_code($json['status']));
+                return;
+            }
+        }
+    } else {
+        $json = array(
+            "status" => 404,
+            "message" => "Error : Authorization requerid"
+        );
+        echo json_encode($json, http_response_code($json['status']));
+        return;
+    }
 }
