@@ -1,0 +1,861 @@
+{
+	"info": {
+		"_postman_id": "f31066bc-0619-4f75-ad76-ff59bfc627de",
+		"name": "APIREST PHP",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "18219404"
+	},
+	"item": [
+		{
+			"name": "GET - Seleccionar dato especifico",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "5EB@/=;b]Pw_u$=deti=]xm}p1TCgy",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "http://api.ecommerce.com/courses?select=id_course",
+					"protocol": "http",
+					"host": [
+						"api",
+						"ecommerce",
+						"com"
+					],
+					"path": [
+						"courses"
+					],
+					"query": [
+						{
+							"key": "linkTo",
+							"value": "title_course",
+							"disabled": true
+						},
+						{
+							"key": "equalTo",
+							"value": "Realizando un Ecommerce",
+							"disabled": true
+						},
+						{
+							"key": "select",
+							"value": "id_course"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET - Filtro de un solo valor",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "5EB@/=;b]Pw_u$=deti=]xm}p1TCgy",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "http://api.ecommerce.com/courses?select=Id_course,title_course,description_course&linkTo=title_course&equalTo=Realizando un Ecommerce",
+					"protocol": "http",
+					"host": [
+						"api",
+						"ecommerce",
+						"com"
+					],
+					"path": [
+						"courses"
+					],
+					"query": [
+						{
+							"key": "select",
+							"value": "Id_course,title_course,description_course"
+						},
+						{
+							"key": "linkTo",
+							"value": "title_course"
+						},
+						{
+							"key": "equalTo",
+							"value": "Realizando un Ecommerce"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET - Filtro de varios valores",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "5EB@/=;b]Pw_u$=deti=]xm}p1TCgy",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "http://api.ecommerce.com/courses?select=Id_course,title_course,description_course,id_instructor_course&linkTo=title_course,id_instructor_course&equalTo=Realizando un Ecommerce_2",
+					"protocol": "http",
+					"host": [
+						"api",
+						"ecommerce",
+						"com"
+					],
+					"path": [
+						"courses"
+					],
+					"query": [
+						{
+							"key": "select",
+							"value": "Id_course,title_course,description_course,id_instructor_course"
+						},
+						{
+							"key": "linkTo",
+							"value": "title_course,id_instructor_course"
+						},
+						{
+							"key": "equalTo",
+							"value": "Realizando un Ecommerce_2"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET - Ordenar datos sin filtros",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "5EB@/=;b]Pw_u$=deti=]xm}p1TCgy",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "http://api.ecommerce.com/courses?select=*&orderBy=price_course&orderMode=DESC",
+					"protocol": "http",
+					"host": [
+						"api",
+						"ecommerce",
+						"com"
+					],
+					"path": [
+						"courses"
+					],
+					"query": [
+						{
+							"key": "select",
+							"value": "*"
+						},
+						{
+							"key": "linkTo",
+							"value": "title_course",
+							"disabled": true
+						},
+						{
+							"key": "equalTo",
+							"value": "Realizando un Ecommerce",
+							"disabled": true
+						},
+						{
+							"key": "orderBy",
+							"value": "price_course"
+						},
+						{
+							"key": "orderMode",
+							"value": "DESC"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET - Ordenar datos con filtros",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "5EB@/=;b]Pw_u$=deti=]xm}p1TCgy",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "http://api.ecommerce.com/courses?select=*&linkTo=id_instructor_course&equalTo=2&orderBy=title_course&orderMode=DESC",
+					"protocol": "http",
+					"host": [
+						"api",
+						"ecommerce",
+						"com"
+					],
+					"path": [
+						"courses"
+					],
+					"query": [
+						{
+							"key": "select",
+							"value": "*"
+						},
+						{
+							"key": "linkTo",
+							"value": "id_instructor_course"
+						},
+						{
+							"key": "equalTo",
+							"value": "2"
+						},
+						{
+							"key": "orderBy",
+							"value": "title_course"
+						},
+						{
+							"key": "orderMode",
+							"value": "DESC"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET - Limitar datos sin filtros",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "5EB@/=;b]Pw_u$=deti=]xm}p1TCgy",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "http://api.ecommerce.com/courses?select=*&starAt=0&endAt=2&orderBy=id_course&orderMode=DESC",
+					"protocol": "http",
+					"host": [
+						"api",
+						"ecommerce",
+						"com"
+					],
+					"path": [
+						"courses"
+					],
+					"query": [
+						{
+							"key": "select",
+							"value": "*"
+						},
+						{
+							"key": "linkTo",
+							"value": "title_course",
+							"disabled": true
+						},
+						{
+							"key": "equalTo",
+							"value": "Realizando un Ecommerce",
+							"disabled": true
+						},
+						{
+							"key": "starAt",
+							"value": "0"
+						},
+						{
+							"key": "endAt",
+							"value": "2"
+						},
+						{
+							"key": "orderBy",
+							"value": "id_course"
+						},
+						{
+							"key": "orderMode",
+							"value": "DESC"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET - Limitar datos con filtros",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "5EB@/=;b]Pw_u$=deti=]xm}p1TCgy",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "http://api.ecommerce.com/courses?select=*&linkTo=title_course&equalTo=Realizando un Ecommerce&starAt=0&endAt=2&orderBy=id_course&orderMode=DESC",
+					"protocol": "http",
+					"host": [
+						"api",
+						"ecommerce",
+						"com"
+					],
+					"path": [
+						"courses"
+					],
+					"query": [
+						{
+							"key": "select",
+							"value": "*"
+						},
+						{
+							"key": "linkTo",
+							"value": "title_course"
+						},
+						{
+							"key": "equalTo",
+							"value": "Realizando un Ecommerce"
+						},
+						{
+							"key": "starAt",
+							"value": "0"
+						},
+						{
+							"key": "endAt",
+							"value": "2"
+						},
+						{
+							"key": "orderBy",
+							"value": "id_course"
+						},
+						{
+							"key": "orderMode",
+							"value": "DESC"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET - Relaciones entre tablas sin filtro",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "5EB@/=;b]Pw_u$=deti=]xm}p1TCgy",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "http://api.ecommerce.com/relations?select=name_instructor,title_course&rel=courses,instructors&type=course,instructor",
+					"protocol": "http",
+					"host": [
+						"api",
+						"ecommerce",
+						"com"
+					],
+					"path": [
+						"relations"
+					],
+					"query": [
+						{
+							"key": "select",
+							"value": "name_instructor,title_course"
+						},
+						{
+							"key": "linkTo",
+							"value": "title_course",
+							"disabled": true
+						},
+						{
+							"key": "equalTo",
+							"value": "Realizando un Ecommerce",
+							"disabled": true
+						},
+						{
+							"key": "rel",
+							"value": "courses,instructors"
+						},
+						{
+							"key": "type",
+							"value": "course,instructor"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET - Relaciones entre tablas con filtro",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "5EB@/=;b]Pw_u$=deti=]xm}p1TCgy",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "http://api.ecommerce.com/relations?select=&linkTo=title_course&equalTo=Realizando un Ecommerce&rel=courses,instructors&type=course,instructor",
+					"protocol": "http",
+					"host": [
+						"api",
+						"ecommerce",
+						"com"
+					],
+					"path": [
+						"relations"
+					],
+					"query": [
+						{
+							"key": "select",
+							"value": ""
+						},
+						{
+							"key": "linkTo",
+							"value": "title_course"
+						},
+						{
+							"key": "equalTo",
+							"value": "Realizando un Ecommerce"
+						},
+						{
+							"key": "rel",
+							"value": "courses,instructors"
+						},
+						{
+							"key": "type",
+							"value": "course,instructor"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET - Busquedas sin relaciones y con filtros",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "5EB@/=;b]Pw_u$=deti=]xm}p1TCgy",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "http://api.ecommerce.com/courses?select=*&linkTo=description_course,id_course&search=Ecommerce_4",
+					"protocol": "http",
+					"host": [
+						"api",
+						"ecommerce",
+						"com"
+					],
+					"path": [
+						"courses"
+					],
+					"query": [
+						{
+							"key": "select",
+							"value": "*"
+						},
+						{
+							"key": "linkTo",
+							"value": "description_course,id_course"
+						},
+						{
+							"key": "search",
+							"value": "Ecommerce_4"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET - Rangos con filtros",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "5EB@/=;b]Pw_u$=deti=]xm}p1TCgy",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "http://api.ecommerce.com/courses?select=*&linkTo=date_created_course&between1=2024-09-01&between2=2024-09-30&filterTo=id_course&inTo=3,4",
+					"protocol": "http",
+					"host": [
+						"api",
+						"ecommerce",
+						"com"
+					],
+					"path": [
+						"courses"
+					],
+					"query": [
+						{
+							"key": "select",
+							"value": "*"
+						},
+						{
+							"key": "linkTo",
+							"value": "date_created_course"
+						},
+						{
+							"key": "between1",
+							"value": "2024-09-01"
+						},
+						{
+							"key": "between2",
+							"value": "2024-09-30"
+						},
+						{
+							"key": "filterTo",
+							"value": "id_course"
+						},
+						{
+							"key": "inTo",
+							"value": "3,4"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "POST - Insertando registros en la BD",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "5EB@/=;b]Pw_u$=deti=]xm}p1TCgy",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "title_course",
+							"value": "PHP",
+							"type": "text"
+						},
+						{
+							"key": "description_course",
+							"value": "algo",
+							"type": "text"
+						},
+						{
+							"key": "id_instructor_course",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "image_course",
+							"value": "PHP",
+							"type": "text"
+						},
+						{
+							"key": "price_course",
+							"value": "20",
+							"type": "text"
+						},
+						{
+							"key": "date_created_course",
+							"value": "2024-10-12",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://api.ecommerce.com/courses?select=id_course",
+					"protocol": "http",
+					"host": [
+						"api",
+						"ecommerce",
+						"com"
+					],
+					"path": [
+						"courses"
+					],
+					"query": [
+						{
+							"key": "linkTo",
+							"value": "title_course",
+							"disabled": true
+						},
+						{
+							"key": "equalTo",
+							"value": "Realizando un Ecommerce",
+							"disabled": true
+						},
+						{
+							"key": "select",
+							"value": "id_course"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "PUT - EDITAR REGISTROS",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "5EB@/=;b]Pw_u$=deti=]xm}p1TCgy",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "title_course",
+							"value": "PHP  Y ALGO MAS",
+							"type": "text"
+						},
+						{
+							"key": "description_course",
+							"value": "algo",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "id_instructor_course",
+							"value": "45",
+							"type": "text"
+						},
+						{
+							"key": "image_course",
+							"value": "PHP",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "price_course",
+							"value": "200",
+							"type": "text"
+						},
+						{
+							"key": "date_created_course",
+							"value": "2024-10-12",
+							"type": "text",
+							"disabled": true
+						}
+					]
+				},
+				"url": {
+					"raw": "http://api.ecommerce.com/courses?id=89&nameId=id_course",
+					"protocol": "http",
+					"host": [
+						"api",
+						"ecommerce",
+						"com"
+					],
+					"path": [
+						"courses"
+					],
+					"query": [
+						{
+							"key": "id",
+							"value": "89"
+						},
+						{
+							"key": "nameId",
+							"value": "id_course"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "DETELE - ELIMINAR REGISTROS",
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "5EB@/=;b]Pw_u$=deti=]xm}p1TCgy",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "title_course",
+							"value": "PHP  Y ALGO MAS",
+							"type": "text"
+						},
+						{
+							"key": "description_course",
+							"value": "algo",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "id_instructor_course",
+							"value": "45",
+							"type": "text"
+						},
+						{
+							"key": "image_course",
+							"value": "PHP",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "price_course",
+							"value": "200",
+							"type": "text"
+						},
+						{
+							"key": "date_created_course",
+							"value": "2024-10-12",
+							"type": "text",
+							"disabled": true
+						}
+					]
+				},
+				"url": {
+					"raw": "http://api.ecommerce.com/courses?id=1&nameId=id_course",
+					"protocol": "http",
+					"host": [
+						"api",
+						"ecommerce",
+						"com"
+					],
+					"path": [
+						"courses"
+					],
+					"query": [
+						{
+							"key": "id",
+							"value": "1"
+						},
+						{
+							"key": "nameId",
+							"value": "id_course"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "POST - Registro de Usuarios BD",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "5EB@/=;b]Pw_u$=deti=]xm}p1TCgy",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "email_instructor",
+							"value": "correo@correo.com",
+							"type": "text"
+						},
+						{
+							"key": "password_instructor",
+							"value": "1234567",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://api.ecommerce.com/instructors?register=true&suffix=instructor",
+					"protocol": "http",
+					"host": [
+						"api",
+						"ecommerce",
+						"com"
+					],
+					"path": [
+						"instructors"
+					],
+					"query": [
+						{
+							"key": "register",
+							"value": "true"
+						},
+						{
+							"key": "suffix",
+							"value": "instructor"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "POST - Login de Usuarios BD",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "5EB@/=;b]Pw_u$=deti=]xm}p1TCgy",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "email_instructor",
+							"value": "correo@correo.com",
+							"type": "text"
+						},
+						{
+							"key": "password_instructor",
+							"value": "1234567",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://api.ecommerce.com/instructors?register=true&suffix=instructor",
+					"protocol": "http",
+					"host": [
+						"api",
+						"ecommerce",
+						"com"
+					],
+					"path": [
+						"instructors"
+					],
+					"query": [
+						{
+							"key": "register",
+							"value": "true"
+						},
+						{
+							"key": "suffix",
+							"value": "instructor"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
