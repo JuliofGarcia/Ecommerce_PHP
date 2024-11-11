@@ -143,7 +143,7 @@ class Post_controller
             }
             $json = array(
                 "status" => 200,
-                "message" => $response,
+                "message" => $response
 
             );
         } else {

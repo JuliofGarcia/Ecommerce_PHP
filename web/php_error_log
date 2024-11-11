@@ -1,0 +1,14 @@
+[11-Nov-2024 21:40:41 Europe/Berlin] PHP Fatal error:  Uncaught Error: Object of class stdClass could not be converted to string in C:\xampp\htdocs\ecommerce\web\controllers\curl.controller.php:30
+Stack trace:
+#0 C:\xampp\htdocs\ecommerce\web\views\template.php(12): Curl_controller::request('templates', 'GET', Array)
+#1 C:\xampp\htdocs\ecommerce\web\controllers\template.controller.php(9): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ecommerce\web\index.php(16): templateController->index()
+#3 {main}
+  thrown in C:\xampp\htdocs\ecommerce\web\controllers\curl.controller.php on line 30
+[11-Nov-2024 21:44:16 Europe/Berlin] PHP Fatal error:  Uncaught Error: Object of class stdClass could not be converted to string in C:\xampp\htdocs\ecommerce\web\controllers\curl.controller.php:32
+Stack trace:
+#0 C:\xampp\htdocs\ecommerce\web\views\template.php(12): Curl_controller::request('templates', 'GET', Array)
+#1 C:\xampp\htdocs\ecommerce\web\controllers\template.controller.php(9): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ecommerce\web\index.php(16): templateController->index()
+#3 {main}
+  thrown in C:\xampp\htdocs\ecommerce\web\controllers\curl.controller.php on line 32

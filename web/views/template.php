@@ -2,11 +2,27 @@
 
 $path = templateController::path();
 
+
+//SOLICTUD GET DE TEMPLATE
+$url = "templates?linkTo=active_template&equalTo=ok";
+$method = "GET";
+$fields = array();
+
+
+$template = Curl_controller::request($url, $method, $fields);
+
+if ($template->status == 200) {
+    $template = $template->message[0];
+} else {
+    //Redicionar a pagina 500
+}
+
+
 ?>
 
 <!DOCTYPE html>
 
-<html lang="en">
+<html lang="es">
 
 <head>
     <meta charset="utf-8">
@@ -26,7 +42,7 @@ $path = templateController::path();
     <link rel="stylesheet" href="<?php echo $path ?>views/assets/css/plugins/fontawesome-free/css/all.min.css">
     <link rel="stylesheet" href="<?php echo $path ?>views/assets/css/template/template.css">
     <link rel="stylesheet" href="<?php echo $path ?>views/assets/css/products/products.css">
-    
+
 
     <!-- JAVASCRIPT -->
 
@@ -51,7 +67,7 @@ $path = templateController::path();
         ?>
 
     </div>
- 
+
 
 
     <!-- AdminLTE App -->

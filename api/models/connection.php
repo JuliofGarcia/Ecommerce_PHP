@@ -7,7 +7,7 @@ class Connection
     {
 
         $infoDB = array(
-            "database" => "database-1",
+            "database" => "ecommerce",
             "user" => "root",
             "pass" => ""
         );
@@ -19,13 +19,13 @@ class Connection
     /*APIKEY */
     static public function apikey()
     {
-        return "5EB@/=;b]Pw_u$=deti=]xm}p1TCgy";
+        return "cTHWe7bPedPLYb3PAXBNr3CAVDMCbf";
     }
 
     /*ACCESO PUBLICO */
     static public function publicAccess()
     {
-        $table = ["courses"];
+        $table = [""];
 
         return $table;
     }
