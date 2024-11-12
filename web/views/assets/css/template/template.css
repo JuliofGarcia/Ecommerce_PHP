@@ -1,6 +1,3 @@
-body {
-  font-family: "Ubuntu", sans-serif;
-}
 
 .dropdown-toggle::after {
   display: none !important;
@@ -13,15 +10,7 @@ ol {
   text-decoration: none;
 }
 
-.topColor {
-  background: #cf137e!important;
-  color: white ;
-}
 
-.templateColor , .templateColor:hover {
-  background: #ff77ca !important;
-  color: #ffffff !important;
-}
 
 a:link,
 a:visited,
@@ -33,5 +22,35 @@ a:active {
 
 .main-footer {
   border-top: 0 !important;
+}
+
+.text-facebook{
+
+  color: #3b5999;
+}
+
+.text-instagram{
+
+  color: #e4405f;
+}
+
+.text-twitter{
+
+  color: #55acee;
+}
+
+.text-linkedin{
+
+  color: #0077B5;
+}
+
+.text-youtube{
+
+  color: #dd4b39;
+}
+
+.text-twitch{
+
+  color: #A142F7;
 }
 

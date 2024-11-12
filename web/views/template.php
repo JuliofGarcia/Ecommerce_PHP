@@ -14,8 +14,26 @@ $template = Curl_controller::request($url, $method, $fields);
 if ($template->status == 200) {
     $template = $template->message[0];
 } else {
-    //Redicionar a pagina 500
+    //Rediccionar a pagina 500
 }
+//DATOS ARREGLOS
+$keywords = null;
+foreach (json_decode($template->keywords_template, true) as $key => $value) {
+    $keywords .= $value . ", ";
+}
+
+// DATOS OBJETOS
+$keywords = substr($keywords, 0, -2);
+
+$fontFamily = json_decode($template->fonts_template)->fontFamily;
+$fontBody = json_decode($template->fonts_template)->fontBody;
+$fontSlide = json_decode($template->fonts_template)->fontSlide;
+
+
+//DATOS JSON
+
+$topColor = json_decode($template->colors_template)[0]->top;
+$templateColor = json_decode($template->colors_template)[1]->template;
 
 
 ?>
@@ -27,11 +45,13 @@ if ($template->status == 200) {
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Cielo Rosa</title>
+    <title><?php echo $template->title_template ?></title>
+    <meta name="description" content="<?php echo $template->description_template ?>">
+    <meta name="keywords" content="<?php echo $keywords ?>">
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Ubuntu+Condensed&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+    <link rel="icon" href="<?php echo $path ?>views/assets/img/template/<?php echo $template->id_template ?> /<?php echo $template->icon_template ?>">
+
+    <?php echo urldecode($fontFamily) ?>
     <!-- CSS -->
 
     <!-- Font Awesome Icons -->
@@ -42,6 +62,30 @@ if ($template->status == 200) {
     <link rel="stylesheet" href="<?php echo $path ?>views/assets/css/plugins/fontawesome-free/css/all.min.css">
     <link rel="stylesheet" href="<?php echo $path ?>views/assets/css/template/template.css">
     <link rel="stylesheet" href="<?php echo $path ?>views/assets/css/products/products.css">
+
+    <style>
+        body {
+            font-family: <?php echo $fontBody ?>, sans-serif;
+        }
+
+        .slideOpt h1,
+        h2,
+        h3 {
+            font-family: <?php echo $fontSlide ?>, sans-serif;
+        }
+
+        .topColor {
+            background: <?php echo $topColor->background ?> !important;
+            color: <?php echo $topColor->color ?>  ;
+        }
+
+        .templateColor,
+        .templateColor:hover {
+            background:<?php echo $templateColor->background ?> !important;
+            color: <?php echo $templateColor->color ?> !important;
+        }
+    </style>
+
 
 
     <!-- JAVASCRIPT -->
@@ -78,3 +122,4 @@ if ($template->status == 200) {
 </body>
 
 </html>
+

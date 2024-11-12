@@ -7,8 +7,8 @@
     <div class="col-12 col-lg-2 mt-1">
 
       <div class="d-flex justify-content-center">
-        <a href="<?php echo $path ?>index3.html" class="navbar-brand">
-          <img src="<?php echo $path ?>views/assets/img/adminlte/logo.png" alt="Logo Cielo Rosa" class="brand-image img-fluid rounded-circle py-2 px-5 p-lg-0 pe-lg-3">
+        <a href="<?php echo $path ?>" class="navbar-brand">
+          <img src="<?php echo $path ?>views/assets/img/template/<?php echo $template->id_template ?> /<?php echo $template->logo_template ?>" alt="Logo Cielo Rosa" class="brand-image img-fluid rounded-circle py-2 px-5 p-lg-0 pe-lg-3">
         </a>
       </div>
 

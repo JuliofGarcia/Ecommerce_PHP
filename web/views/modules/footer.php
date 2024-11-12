@@ -1,5 +1,3 @@
-
-
 <div class="container-fluid templateColor small">
   <div class="container py-5 text-ligth">
     <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3">
@@ -91,27 +89,27 @@
           <br>
           Bogota Colombia
         </h1>
-        <p><iframe id="map-canvas" class="map_part mt-3" width="100%"  height="250"  frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%&amp;height=100%&amp;hl=en&amp;q=Transversal 29 Carrera 24a, Montería, Córdoba&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed">Powered by <a href="https://www.googlemapsgenerator.com/">google maps embed</a> and <a href="https://getaroundgamstop.com/">how to get around gamstop</a></iframe></p>
+        <p><iframe id="map-canvas" class="map_part mt-3" width="100%" height="250" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%&amp;height=100%&amp;hl=en&amp;q=Transversal 29 Carrera 24a, Montería, Córdoba&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed">Powered by <a href="https://www.googlemapsgenerator.com/">google maps embed</a> and <a href="https://getaroundgamstop.com/">how to get around gamstop</a></iframe></p>
       </div>
       <div class="col small my-3 my-lg-0">
         <h4 class="text-uppercase"> resuelva su inquietud </h4>
         <form role="form" method="post">
 
-          <input type="text" id="nombreContactenos" name="nombreContactenos" class="form-control" placeholder="Escriba su nombre" required> 
+          <input type="text" id="nombreContactenos" name="nombreContactenos" class="form-control" placeholder="Escriba su nombre" required>
 
           <br>
-            
-          <input type="email" id="emailContactenos" name="emailContactenos" class=" form-control" placeholder="Escriba su correo electrónico" required>  
+
+          <input type="email" id="emailContactenos" name="emailContactenos" class=" form-control" placeholder="Escriba su correo electrónico" required>
 
           <br>
-                        
-            <textarea id="mensajeContactenos" name="mensajeContactenos" class="form-control" placeholder="Escriba su mensaje" rows="5" required></textarea>
 
-            <br>
-      
-            <input type="submit" value="Enviar" class="btn btn-default float-end border-0 templateColor" >         
+          <textarea id="mensajeContactenos" name="mensajeContactenos" class="form-control" placeholder="Escriba su mensaje" rows="5" required></textarea>
 
-      </form>
+          <br>
+
+          <input type="submit" value="Enviar" class="btn btn-default float-end border-0 templateColor">
+
+        </form>
 
       </div>
     </div>
@@ -119,37 +117,27 @@
 </div>
 
 <!-- Main Footer -->
-<footer class="main-footer topColor" >
+<footer class="main-footer topColor">
 
-<div class="container">
+  <div class="container">
 
 
-  <!-- To the right -->
-  <div class="float-end ">
-  <div class="d-flex justify-content-center">
-                    <div class="p-2">
-                        <a href=" https://facebook.com" target="_blank" class="text-white">
-                            <i class="fab fa-facebook-f"></i>
-                        </a>
-                    </div>
-                    <div class="p-2">
-                        <a href=" https://youtube.com" target="_blank" class="text-white">
-                            <i class="fab fa-youtube"></i>
-                        </a>
-                    </div>
-                    <div class="p-2">
-                        <a href=" https://twitter.com" target="_blank" class="text-white">
-                            <i class="fab fa-twitter"></i>
-                        </a>
-                    </div>
-                    <div class="p-2">
-                        <a href=" https://instagram.com" target="_blank" class="text-white">
-                            <i class="fab fa-instagram"></i>
-                        </a>
-                    </div>
-                </div>
-  </div>
-  <!-- Default to the left -->
-  <small>Copyright &copy;  <?php echo date("Y")?> Todos los derechos reservados. Sitio elaboradorado por la Compañia</small> 
+    <!-- To the right -->
+    <div class="float-end ">
+      <div class="d-flex justify-content-center">
+        <?php
+
+        foreach ($socials as $key => $value) : ?>
+          <div class="p-2">
+            <a href=" <?php echo $value->url_social ?>" target="_blank">
+              <i class="<?php echo $value->icon_social ?> <?php echo $value->color_social ?>"></i>
+            </a>
+          </div>
+
+        <?php endforeach ?>
+      </div>
+    </div>
+    <!-- Default to the left -->
+    <small>Copyright &copy; <?php echo date("Y") ?> Todos los derechos reservados. Sitio elaboradorado por la Compañia</small>
   </div>
 </footer>
