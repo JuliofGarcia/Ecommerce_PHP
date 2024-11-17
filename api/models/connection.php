@@ -7,7 +7,7 @@ class Connection
     {
 
         $infoDB = array(
-            "database" => "ecommerce",
+            "database" => "dbecommerce",
             "user" => "root",
             "pass" => ""
         );

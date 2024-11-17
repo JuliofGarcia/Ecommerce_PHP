@@ -1,300 +1,168 @@
-[11-Nov-2024 21:40:41 Europe/Berlin] PHP Fatal error:  Uncaught Error: Object of class stdClass could not be converted to string in C:\xampp\htdocs\ecommerce\web\controllers\curl.controller.php:30
-Stack trace:
-#0 C:\xampp\htdocs\ecommerce\web\views\template.php(12): Curl_controller::request('templates', 'GET', Array)
-#1 C:\xampp\htdocs\ecommerce\web\controllers\template.controller.php(9): include('C:\\xampp\\htdocs...')
-#2 C:\xampp\htdocs\ecommerce\web\index.php(16): templateController->index()
-#3 {main}
-  thrown in C:\xampp\htdocs\ecommerce\web\controllers\curl.controller.php on line 30
-[11-Nov-2024 21:44:16 Europe/Berlin] PHP Fatal error:  Uncaught Error: Object of class stdClass could not be converted to string in C:\xampp\htdocs\ecommerce\web\controllers\curl.controller.php:32
-Stack trace:
-#0 C:\xampp\htdocs\ecommerce\web\views\template.php(12): Curl_controller::request('templates', 'GET', Array)
-#1 C:\xampp\htdocs\ecommerce\web\controllers\template.controller.php(9): include('C:\\xampp\\htdocs...')
-#2 C:\xampp\htdocs\ecommerce\web\index.php(16): templateController->index()
-#3 {main}
-  thrown in C:\xampp\htdocs\ecommerce\web\controllers\curl.controller.php on line 32
-[12-Nov-2024 01:45:34 Europe/Berlin] PHP Warning:  Undefined variable $templae in C:\xampp\htdocs\ecommerce\web\views\template.php on line 30
-[12-Nov-2024 01:45:34 Europe/Berlin] PHP Warning:  Attempt to read property "colors_template" on null in C:\xampp\htdocs\ecommerce\web\views\template.php on line 30
-[12-Nov-2024 01:55:59 Europe/Berlin] PHP Warning:  Attempt to read property "top" on string in C:\xampp\htdocs\ecommerce\web\views\template.php on line 30
-[12-Nov-2024 01:55:59 Europe/Berlin] PHP Warning:  Attempt to read property "template" on string in C:\xampp\htdocs\ecommerce\web\views\template.php on line 31
-[12-Nov-2024 01:55:59 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\ecommerce\web\views\template.php on line 34
-[12-Nov-2024 01:55:59 Europe/Berlin] PHP Warning:  Attempt to read property "top" on null in C:\xampp\htdocs\ecommerce\web\views\template.php on line 34
-[12-Nov-2024 01:55:59 Europe/Berlin] PHP Warning:  Attempt to read property "background" on null in C:\xampp\htdocs\ecommerce\web\views\template.php on line 34
-[12-Nov-2024 01:55:59 Europe/Berlin] PHP Warning:  Attempt to read property "background" on null in C:\xampp\htdocs\ecommerce\web\views\template.php on line 75
-[12-Nov-2024 01:55:59 Europe/Berlin] PHP Warning:  Attempt to read property "color" on null in C:\xampp\htdocs\ecommerce\web\views\template.php on line 76
-[12-Nov-2024 01:55:59 Europe/Berlin] PHP Warning:  Attempt to read property "background" on null in C:\xampp\htdocs\ecommerce\web\views\template.php on line 81
-[12-Nov-2024 01:55:59 Europe/Berlin] PHP Warning:  Attempt to read property "color" on null in C:\xampp\htdocs\ecommerce\web\views\template.php on line 82
-[12-Nov-2024 01:56:31 Europe/Berlin] PHP Warning:  Attempt to read property "top" on string in C:\xampp\htdocs\ecommerce\web\views\template.php on line 30
-[12-Nov-2024 01:56:31 Europe/Berlin] PHP Warning:  Attempt to read property "template" on string in C:\xampp\htdocs\ecommerce\web\views\template.php on line 31
-[12-Nov-2024 01:56:31 Europe/Berlin] PHP Warning:  Attempt to read property "background" on null in C:\xampp\htdocs\ecommerce\web\views\template.php on line 73
-[12-Nov-2024 01:56:31 Europe/Berlin] PHP Warning:  Attempt to read property "color" on null in C:\xampp\htdocs\ecommerce\web\views\template.php on line 74
-[12-Nov-2024 01:56:31 Europe/Berlin] PHP Warning:  Attempt to read property "background" on null in C:\xampp\htdocs\ecommerce\web\views\template.php on line 79
-[12-Nov-2024 01:56:31 Europe/Berlin] PHP Warning:  Attempt to read property "color" on null in C:\xampp\htdocs\ecommerce\web\views\template.php on line 80
-[12-Nov-2024 01:57:51 Europe/Berlin] PHP Warning:  Attempt to read property "top" on null in C:\xampp\htdocs\ecommerce\web\views\template.php on line 30
-[12-Nov-2024 01:57:51 Europe/Berlin] PHP Warning:  Attempt to read property "template" on string in C:\xampp\htdocs\ecommerce\web\views\template.php on line 31
-[12-Nov-2024 01:57:51 Europe/Berlin] PHP Warning:  Attempt to read property "background" on null in C:\xampp\htdocs\ecommerce\web\views\template.php on line 73
-[12-Nov-2024 01:57:51 Europe/Berlin] PHP Warning:  Attempt to read property "color" on null in C:\xampp\htdocs\ecommerce\web\views\template.php on line 74
-[12-Nov-2024 01:57:51 Europe/Berlin] PHP Warning:  Attempt to read property "background" on null in C:\xampp\htdocs\ecommerce\web\views\template.php on line 79
-[12-Nov-2024 01:57:51 Europe/Berlin] PHP Warning:  Attempt to read property "color" on null in C:\xampp\htdocs\ecommerce\web\views\template.php on line 80
-[12-Nov-2024 01:57:57 Europe/Berlin] PHP Warning:  Attempt to read property "top" on null in C:\xampp\htdocs\ecommerce\web\views\template.php on line 30
-[12-Nov-2024 01:57:57 Europe/Berlin] PHP Warning:  Attempt to read property "template" on string in C:\xampp\htdocs\ecommerce\web\views\template.php on line 31
-[12-Nov-2024 01:57:57 Europe/Berlin] PHP Warning:  Attempt to read property "background" on null in C:\xampp\htdocs\ecommerce\web\views\template.php on line 73
-[12-Nov-2024 01:57:57 Europe/Berlin] PHP Warning:  Attempt to read property "color" on null in C:\xampp\htdocs\ecommerce\web\views\template.php on line 74
-[12-Nov-2024 01:57:57 Europe/Berlin] PHP Warning:  Attempt to read property "background" on null in C:\xampp\htdocs\ecommerce\web\views\template.php on line 79
-[12-Nov-2024 01:57:57 Europe/Berlin] PHP Warning:  Attempt to read property "color" on null in C:\xampp\htdocs\ecommerce\web\views\template.php on line 80
-[12-Nov-2024 01:58:04 Europe/Berlin] PHP Warning:  Attempt to read property "top" on null in C:\xampp\htdocs\ecommerce\web\views\template.php on line 30
-[12-Nov-2024 01:58:04 Europe/Berlin] PHP Warning:  Attempt to read property "template" on string in C:\xampp\htdocs\ecommerce\web\views\template.php on line 31
-[12-Nov-2024 01:58:04 Europe/Berlin] PHP Warning:  Attempt to read property "background" on null in C:\xampp\htdocs\ecommerce\web\views\template.php on line 73
-[12-Nov-2024 01:58:04 Europe/Berlin] PHP Warning:  Attempt to read property "color" on null in C:\xampp\htdocs\ecommerce\web\views\template.php on line 74
-[12-Nov-2024 01:58:04 Europe/Berlin] PHP Warning:  Attempt to read property "background" on null in C:\xampp\htdocs\ecommerce\web\views\template.php on line 79
-[12-Nov-2024 01:58:04 Europe/Berlin] PHP Warning:  Attempt to read property "color" on null in C:\xampp\htdocs\ecommerce\web\views\template.php on line 80
-[12-Nov-2024 02:00:02 Europe/Berlin] PHP Warning:  Attempt to read property "top" on null in C:\xampp\htdocs\ecommerce\web\views\template.php on line 30
-[12-Nov-2024 02:00:02 Europe/Berlin] PHP Warning:  Attempt to read property "template" on string in C:\xampp\htdocs\ecommerce\web\views\template.php on line 31
-[12-Nov-2024 02:00:02 Europe/Berlin] PHP Warning:  Attempt to read property "background" on null in C:\xampp\htdocs\ecommerce\web\views\template.php on line 73
-[12-Nov-2024 02:00:02 Europe/Berlin] PHP Warning:  Attempt to read property "color" on null in C:\xampp\htdocs\ecommerce\web\views\template.php on line 74
-[12-Nov-2024 02:00:02 Europe/Berlin] PHP Warning:  Attempt to read property "background" on null in C:\xampp\htdocs\ecommerce\web\views\template.php on line 79
-[12-Nov-2024 02:00:02 Europe/Berlin] PHP Warning:  Attempt to read property "color" on null in C:\xampp\htdocs\ecommerce\web\views\template.php on line 80
-[12-Nov-2024 02:00:08 Europe/Berlin] PHP Warning:  Attempt to read property "top" on null in C:\xampp\htdocs\ecommerce\web\views\template.php on line 30
-[12-Nov-2024 02:00:08 Europe/Berlin] PHP Warning:  Attempt to read property "template" on string in C:\xampp\htdocs\ecommerce\web\views\template.php on line 31
-[12-Nov-2024 02:00:08 Europe/Berlin] PHP Warning:  Attempt to read property "background" on null in C:\xampp\htdocs\ecommerce\web\views\template.php on line 73
-[12-Nov-2024 02:00:08 Europe/Berlin] PHP Warning:  Attempt to read property "color" on null in C:\xampp\htdocs\ecommerce\web\views\template.php on line 74
-[12-Nov-2024 02:00:08 Europe/Berlin] PHP Warning:  Attempt to read property "background" on null in C:\xampp\htdocs\ecommerce\web\views\template.php on line 79
-[12-Nov-2024 02:00:08 Europe/Berlin] PHP Warning:  Attempt to read property "color" on null in C:\xampp\htdocs\ecommerce\web\views\template.php on line 80
-[12-Nov-2024 02:00:56 Europe/Berlin] PHP Warning:  Attempt to read property "top" on null in C:\xampp\htdocs\ecommerce\web\views\template.php on line 30
-[12-Nov-2024 02:00:56 Europe/Berlin] PHP Warning:  Attempt to read property "template" on null in C:\xampp\htdocs\ecommerce\web\views\template.php on line 31
-[12-Nov-2024 02:00:56 Europe/Berlin] PHP Warning:  Attempt to read property "background" on null in C:\xampp\htdocs\ecommerce\web\views\template.php on line 73
-[12-Nov-2024 02:00:56 Europe/Berlin] PHP Warning:  Attempt to read property "color" on null in C:\xampp\htdocs\ecommerce\web\views\template.php on line 74
-[12-Nov-2024 02:00:56 Europe/Berlin] PHP Warning:  Attempt to read property "background" on null in C:\xampp\htdocs\ecommerce\web\views\template.php on line 79
-[12-Nov-2024 02:00:56 Europe/Berlin] PHP Warning:  Attempt to read property "color" on null in C:\xampp\htdocs\ecommerce\web\views\template.php on line 80
-[12-Nov-2024 02:04:20 Europe/Berlin] PHP Warning:  Attempt to read property "top" on null in C:\xampp\htdocs\ecommerce\web\views\template.php on line 30
-[12-Nov-2024 02:04:20 Europe/Berlin] PHP Warning:  Attempt to read property "template" on null in C:\xampp\htdocs\ecommerce\web\views\template.php on line 31
-[12-Nov-2024 02:04:20 Europe/Berlin] PHP Warning:  Attempt to read property "background" on null in C:\xampp\htdocs\ecommerce\web\views\template.php on line 73
-[12-Nov-2024 02:04:20 Europe/Berlin] PHP Warning:  Attempt to read property "color" on null in C:\xampp\htdocs\ecommerce\web\views\template.php on line 74
-[12-Nov-2024 02:04:20 Europe/Berlin] PHP Warning:  Attempt to read property "background" on null in C:\xampp\htdocs\ecommerce\web\views\template.php on line 79
-[12-Nov-2024 02:04:20 Europe/Berlin] PHP Warning:  Attempt to read property "color" on null in C:\xampp\htdocs\ecommerce\web\views\template.php on line 80
-[12-Nov-2024 02:07:38 Europe/Berlin] PHP Warning:  Undefined variable $topColor in C:\xampp\htdocs\ecommerce\web\views\template.php on line 75
-[12-Nov-2024 02:07:38 Europe/Berlin] PHP Warning:  Attempt to read property "background" on null in C:\xampp\htdocs\ecommerce\web\views\template.php on line 75
-[12-Nov-2024 02:07:38 Europe/Berlin] PHP Warning:  Undefined variable $topColor in C:\xampp\htdocs\ecommerce\web\views\template.php on line 76
-[12-Nov-2024 02:07:38 Europe/Berlin] PHP Warning:  Attempt to read property "color" on null in C:\xampp\htdocs\ecommerce\web\views\template.php on line 76
-[12-Nov-2024 02:07:38 Europe/Berlin] PHP Warning:  Undefined variable $topColor in C:\xampp\htdocs\ecommerce\web\views\template.php on line 81
-[12-Nov-2024 02:07:38 Europe/Berlin] PHP Warning:  Attempt to read property "background" on null in C:\xampp\htdocs\ecommerce\web\views\template.php on line 81
-[12-Nov-2024 02:07:38 Europe/Berlin] PHP Warning:  Undefined variable $topColor in C:\xampp\htdocs\ecommerce\web\views\template.php on line 82
-[12-Nov-2024 02:07:38 Europe/Berlin] PHP Warning:  Attempt to read property "color" on null in C:\xampp\htdocs\ecommerce\web\views\template.php on line 82
-[12-Nov-2024 02:11:23 Europe/Berlin] PHP Warning:  Undefined variable $topColor in C:\xampp\htdocs\ecommerce\web\views\template.php on line 75
-[12-Nov-2024 02:11:23 Europe/Berlin] PHP Warning:  Attempt to read property "background" on null in C:\xampp\htdocs\ecommerce\web\views\template.php on line 75
-[12-Nov-2024 02:11:23 Europe/Berlin] PHP Warning:  Undefined variable $topColor in C:\xampp\htdocs\ecommerce\web\views\template.php on line 76
-[12-Nov-2024 02:11:23 Europe/Berlin] PHP Warning:  Attempt to read property "color" on null in C:\xampp\htdocs\ecommerce\web\views\template.php on line 76
-[12-Nov-2024 02:11:23 Europe/Berlin] PHP Warning:  Undefined variable $topColor in C:\xampp\htdocs\ecommerce\web\views\template.php on line 81
-[12-Nov-2024 02:11:23 Europe/Berlin] PHP Warning:  Attempt to read property "background" on null in C:\xampp\htdocs\ecommerce\web\views\template.php on line 81
-[12-Nov-2024 02:11:23 Europe/Berlin] PHP Warning:  Undefined variable $topColor in C:\xampp\htdocs\ecommerce\web\views\template.php on line 82
-[12-Nov-2024 02:11:23 Europe/Berlin] PHP Warning:  Attempt to read property "color" on null in C:\xampp\htdocs\ecommerce\web\views\template.php on line 82
-[12-Nov-2024 02:11:40 Europe/Berlin] PHP Warning:  Attempt to read property "top" on null in C:\xampp\htdocs\ecommerce\web\views\template.php on line 32
-[12-Nov-2024 02:11:40 Europe/Berlin] PHP Warning:  Attempt to read property "template" on null in C:\xampp\htdocs\ecommerce\web\views\template.php on line 33
-[12-Nov-2024 02:11:40 Europe/Berlin] PHP Warning:  Attempt to read property "background" on null in C:\xampp\htdocs\ecommerce\web\views\template.php on line 75
-[12-Nov-2024 02:11:40 Europe/Berlin] PHP Warning:  Attempt to read property "color" on null in C:\xampp\htdocs\ecommerce\web\views\template.php on line 76
-[12-Nov-2024 02:11:40 Europe/Berlin] PHP Warning:  Attempt to read property "background" on null in C:\xampp\htdocs\ecommerce\web\views\template.php on line 81
-[12-Nov-2024 02:11:40 Europe/Berlin] PHP Warning:  Attempt to read property "color" on null in C:\xampp\htdocs\ecommerce\web\views\template.php on line 82
-[12-Nov-2024 02:14:45 Europe/Berlin] PHP Warning:  Undefined variable $topColor in C:\xampp\htdocs\ecommerce\web\views\template.php on line 75
-[12-Nov-2024 02:14:45 Europe/Berlin] PHP Warning:  Attempt to read property "background" on null in C:\xampp\htdocs\ecommerce\web\views\template.php on line 75
-[12-Nov-2024 02:14:45 Europe/Berlin] PHP Warning:  Undefined variable $topColor in C:\xampp\htdocs\ecommerce\web\views\template.php on line 76
-[12-Nov-2024 02:14:45 Europe/Berlin] PHP Warning:  Attempt to read property "color" on null in C:\xampp\htdocs\ecommerce\web\views\template.php on line 76
-[12-Nov-2024 02:14:45 Europe/Berlin] PHP Warning:  Undefined variable $topColor in C:\xampp\htdocs\ecommerce\web\views\template.php on line 81
-[12-Nov-2024 02:14:45 Europe/Berlin] PHP Warning:  Attempt to read property "background" on null in C:\xampp\htdocs\ecommerce\web\views\template.php on line 81
-[12-Nov-2024 02:14:45 Europe/Berlin] PHP Warning:  Undefined variable $topColor in C:\xampp\htdocs\ecommerce\web\views\template.php on line 82
-[12-Nov-2024 02:14:45 Europe/Berlin] PHP Warning:  Attempt to read property "color" on null in C:\xampp\htdocs\ecommerce\web\views\template.php on line 82
-[12-Nov-2024 02:15:43 Europe/Berlin] PHP Warning:  Undefined variable $topColor in C:\xampp\htdocs\ecommerce\web\views\template.php on line 75
-[12-Nov-2024 02:15:43 Europe/Berlin] PHP Warning:  Attempt to read property "background" on null in C:\xampp\htdocs\ecommerce\web\views\template.php on line 75
-[12-Nov-2024 02:15:43 Europe/Berlin] PHP Warning:  Undefined variable $topColor in C:\xampp\htdocs\ecommerce\web\views\template.php on line 76
-[12-Nov-2024 02:15:43 Europe/Berlin] PHP Warning:  Attempt to read property "color" on null in C:\xampp\htdocs\ecommerce\web\views\template.php on line 76
-[12-Nov-2024 02:15:43 Europe/Berlin] PHP Warning:  Undefined variable $topColor in C:\xampp\htdocs\ecommerce\web\views\template.php on line 81
-[12-Nov-2024 02:15:43 Europe/Berlin] PHP Warning:  Attempt to read property "background" on null in C:\xampp\htdocs\ecommerce\web\views\template.php on line 81
-[12-Nov-2024 02:15:43 Europe/Berlin] PHP Warning:  Undefined variable $topColor in C:\xampp\htdocs\ecommerce\web\views\template.php on line 82
-[12-Nov-2024 02:15:43 Europe/Berlin] PHP Warning:  Attempt to read property "color" on null in C:\xampp\htdocs\ecommerce\web\views\template.php on line 82
-[12-Nov-2024 02:16:07 Europe/Berlin] PHP Warning:  Undefined property: stdClass::$colors_ytemplate in C:\xampp\htdocs\ecommerce\web\views\template.php on line 29
-[12-Nov-2024 02:16:07 Europe/Berlin] PHP Warning:  Undefined variable $topColor in C:\xampp\htdocs\ecommerce\web\views\template.php on line 75
-[12-Nov-2024 02:16:07 Europe/Berlin] PHP Warning:  Attempt to read property "background" on null in C:\xampp\htdocs\ecommerce\web\views\template.php on line 75
-[12-Nov-2024 02:16:07 Europe/Berlin] PHP Warning:  Undefined variable $topColor in C:\xampp\htdocs\ecommerce\web\views\template.php on line 76
-[12-Nov-2024 02:16:07 Europe/Berlin] PHP Warning:  Attempt to read property "color" on null in C:\xampp\htdocs\ecommerce\web\views\template.php on line 76
-[12-Nov-2024 02:16:07 Europe/Berlin] PHP Warning:  Undefined variable $topColor in C:\xampp\htdocs\ecommerce\web\views\template.php on line 81
-[12-Nov-2024 02:16:07 Europe/Berlin] PHP Warning:  Attempt to read property "background" on null in C:\xampp\htdocs\ecommerce\web\views\template.php on line 81
-[12-Nov-2024 02:16:07 Europe/Berlin] PHP Warning:  Undefined variable $topColor in C:\xampp\htdocs\ecommerce\web\views\template.php on line 82
-[12-Nov-2024 02:16:07 Europe/Berlin] PHP Warning:  Attempt to read property "color" on null in C:\xampp\htdocs\ecommerce\web\views\template.php on line 82
-[12-Nov-2024 02:16:32 Europe/Berlin] PHP Warning:  Undefined variable $topColor in C:\xampp\htdocs\ecommerce\web\views\template.php on line 75
-[12-Nov-2024 02:16:32 Europe/Berlin] PHP Warning:  Attempt to read property "background" on null in C:\xampp\htdocs\ecommerce\web\views\template.php on line 75
-[12-Nov-2024 02:16:32 Europe/Berlin] PHP Warning:  Undefined variable $topColor in C:\xampp\htdocs\ecommerce\web\views\template.php on line 76
-[12-Nov-2024 02:16:32 Europe/Berlin] PHP Warning:  Attempt to read property "color" on null in C:\xampp\htdocs\ecommerce\web\views\template.php on line 76
-[12-Nov-2024 02:16:32 Europe/Berlin] PHP Warning:  Undefined variable $topColor in C:\xampp\htdocs\ecommerce\web\views\template.php on line 81
-[12-Nov-2024 02:16:32 Europe/Berlin] PHP Warning:  Attempt to read property "background" on null in C:\xampp\htdocs\ecommerce\web\views\template.php on line 81
-[12-Nov-2024 02:16:32 Europe/Berlin] PHP Warning:  Undefined variable $topColor in C:\xampp\htdocs\ecommerce\web\views\template.php on line 82
-[12-Nov-2024 02:16:32 Europe/Berlin] PHP Warning:  Attempt to read property "color" on null in C:\xampp\htdocs\ecommerce\web\views\template.php on line 82
-[12-Nov-2024 02:21:36 Europe/Berlin] PHP Warning:  Undefined variable $topColor in C:\xampp\htdocs\ecommerce\web\views\template.php on line 75
-[12-Nov-2024 02:21:36 Europe/Berlin] PHP Warning:  Attempt to read property "background" on null in C:\xampp\htdocs\ecommerce\web\views\template.php on line 75
-[12-Nov-2024 02:21:36 Europe/Berlin] PHP Warning:  Undefined variable $topColor in C:\xampp\htdocs\ecommerce\web\views\template.php on line 76
-[12-Nov-2024 02:21:36 Europe/Berlin] PHP Warning:  Attempt to read property "color" on null in C:\xampp\htdocs\ecommerce\web\views\template.php on line 76
-[12-Nov-2024 02:21:36 Europe/Berlin] PHP Warning:  Undefined variable $topColor in C:\xampp\htdocs\ecommerce\web\views\template.php on line 81
-[12-Nov-2024 02:21:36 Europe/Berlin] PHP Warning:  Attempt to read property "background" on null in C:\xampp\htdocs\ecommerce\web\views\template.php on line 81
-[12-Nov-2024 02:21:36 Europe/Berlin] PHP Warning:  Undefined variable $topColor in C:\xampp\htdocs\ecommerce\web\views\template.php on line 82
-[12-Nov-2024 02:21:36 Europe/Berlin] PHP Warning:  Attempt to read property "color" on null in C:\xampp\htdocs\ecommerce\web\views\template.php on line 82
-[12-Nov-2024 02:24:30 Europe/Berlin] PHP Warning:  Undefined variable $topColor in C:\xampp\htdocs\ecommerce\web\views\template.php on line 75
-[12-Nov-2024 02:24:30 Europe/Berlin] PHP Warning:  Attempt to read property "background" on null in C:\xampp\htdocs\ecommerce\web\views\template.php on line 75
-[12-Nov-2024 02:24:30 Europe/Berlin] PHP Warning:  Undefined variable $topColor in C:\xampp\htdocs\ecommerce\web\views\template.php on line 76
-[12-Nov-2024 02:24:30 Europe/Berlin] PHP Warning:  Attempt to read property "color" on null in C:\xampp\htdocs\ecommerce\web\views\template.php on line 76
-[12-Nov-2024 02:24:30 Europe/Berlin] PHP Warning:  Undefined variable $topColor in C:\xampp\htdocs\ecommerce\web\views\template.php on line 81
-[12-Nov-2024 02:24:30 Europe/Berlin] PHP Warning:  Attempt to read property "background" on null in C:\xampp\htdocs\ecommerce\web\views\template.php on line 81
-[12-Nov-2024 02:24:30 Europe/Berlin] PHP Warning:  Undefined variable $topColor in C:\xampp\htdocs\ecommerce\web\views\template.php on line 82
-[12-Nov-2024 02:24:30 Europe/Berlin] PHP Warning:  Attempt to read property "color" on null in C:\xampp\htdocs\ecommerce\web\views\template.php on line 82
-[12-Nov-2024 02:24:32 Europe/Berlin] PHP Warning:  Undefined variable $topColor in C:\xampp\htdocs\ecommerce\web\views\template.php on line 75
-[12-Nov-2024 02:24:32 Europe/Berlin] PHP Warning:  Attempt to read property "background" on null in C:\xampp\htdocs\ecommerce\web\views\template.php on line 75
-[12-Nov-2024 02:24:32 Europe/Berlin] PHP Warning:  Undefined variable $topColor in C:\xampp\htdocs\ecommerce\web\views\template.php on line 76
-[12-Nov-2024 02:24:32 Europe/Berlin] PHP Warning:  Attempt to read property "color" on null in C:\xampp\htdocs\ecommerce\web\views\template.php on line 76
-[12-Nov-2024 02:24:32 Europe/Berlin] PHP Warning:  Undefined variable $topColor in C:\xampp\htdocs\ecommerce\web\views\template.php on line 81
-[12-Nov-2024 02:24:32 Europe/Berlin] PHP Warning:  Attempt to read property "background" on null in C:\xampp\htdocs\ecommerce\web\views\template.php on line 81
-[12-Nov-2024 02:24:32 Europe/Berlin] PHP Warning:  Undefined variable $topColor in C:\xampp\htdocs\ecommerce\web\views\template.php on line 82
-[12-Nov-2024 02:24:32 Europe/Berlin] PHP Warning:  Attempt to read property "color" on null in C:\xampp\htdocs\ecommerce\web\views\template.php on line 82
-[12-Nov-2024 02:25:41 Europe/Berlin] PHP Warning:  Undefined variable $topColor in C:\xampp\htdocs\ecommerce\web\views\template.php on line 75
-[12-Nov-2024 02:25:41 Europe/Berlin] PHP Warning:  Attempt to read property "background" on null in C:\xampp\htdocs\ecommerce\web\views\template.php on line 75
-[12-Nov-2024 02:25:41 Europe/Berlin] PHP Warning:  Undefined variable $topColor in C:\xampp\htdocs\ecommerce\web\views\template.php on line 76
-[12-Nov-2024 02:25:41 Europe/Berlin] PHP Warning:  Attempt to read property "color" on null in C:\xampp\htdocs\ecommerce\web\views\template.php on line 76
-[12-Nov-2024 02:25:41 Europe/Berlin] PHP Warning:  Undefined variable $topColor in C:\xampp\htdocs\ecommerce\web\views\template.php on line 81
-[12-Nov-2024 02:25:41 Europe/Berlin] PHP Warning:  Attempt to read property "background" on null in C:\xampp\htdocs\ecommerce\web\views\template.php on line 81
-[12-Nov-2024 02:25:41 Europe/Berlin] PHP Warning:  Undefined variable $topColor in C:\xampp\htdocs\ecommerce\web\views\template.php on line 82
-[12-Nov-2024 02:25:41 Europe/Berlin] PHP Warning:  Attempt to read property "color" on null in C:\xampp\htdocs\ecommerce\web\views\template.php on line 82
-[12-Nov-2024 02:26:15 Europe/Berlin] PHP Warning:  Attempt to read property "top" on null in C:\xampp\htdocs\ecommerce\web\views\template.php on line 32
-[12-Nov-2024 02:26:15 Europe/Berlin] PHP Warning:  Attempt to read property "template" on null in C:\xampp\htdocs\ecommerce\web\views\template.php on line 33
-[12-Nov-2024 02:26:15 Europe/Berlin] PHP Warning:  Attempt to read property "background" on null in C:\xampp\htdocs\ecommerce\web\views\template.php on line 75
-[12-Nov-2024 02:26:15 Europe/Berlin] PHP Warning:  Attempt to read property "color" on null in C:\xampp\htdocs\ecommerce\web\views\template.php on line 76
-[12-Nov-2024 02:26:15 Europe/Berlin] PHP Warning:  Attempt to read property "background" on null in C:\xampp\htdocs\ecommerce\web\views\template.php on line 81
-[12-Nov-2024 02:26:15 Europe/Berlin] PHP Warning:  Attempt to read property "color" on null in C:\xampp\htdocs\ecommerce\web\views\template.php on line 82
-[12-Nov-2024 02:26:30 Europe/Berlin] PHP Warning:  Attempt to read property "top" on null in C:\xampp\htdocs\ecommerce\web\views\template.php on line 32
-[12-Nov-2024 02:26:30 Europe/Berlin] PHP Warning:  Attempt to read property "template" on null in C:\xampp\htdocs\ecommerce\web\views\template.php on line 33
-[12-Nov-2024 02:26:30 Europe/Berlin] PHP Warning:  Attempt to read property "background" on null in C:\xampp\htdocs\ecommerce\web\views\template.php on line 75
-[12-Nov-2024 02:26:30 Europe/Berlin] PHP Warning:  Attempt to read property "color" on null in C:\xampp\htdocs\ecommerce\web\views\template.php on line 76
-[12-Nov-2024 02:26:30 Europe/Berlin] PHP Warning:  Attempt to read property "background" on null in C:\xampp\htdocs\ecommerce\web\views\template.php on line 81
-[12-Nov-2024 02:26:30 Europe/Berlin] PHP Warning:  Attempt to read property "color" on null in C:\xampp\htdocs\ecommerce\web\views\template.php on line 82
-[12-Nov-2024 02:28:19 Europe/Berlin] PHP Warning:  Attempt to read property "top" on null in C:\xampp\htdocs\ecommerce\web\views\template.php on line 32
-[12-Nov-2024 02:28:19 Europe/Berlin] PHP Warning:  Attempt to read property "template" on null in C:\xampp\htdocs\ecommerce\web\views\template.php on line 33
-[12-Nov-2024 02:28:19 Europe/Berlin] PHP Warning:  Attempt to read property "background" on null in C:\xampp\htdocs\ecommerce\web\views\template.php on line 75
-[12-Nov-2024 02:28:19 Europe/Berlin] PHP Warning:  Attempt to read property "color" on null in C:\xampp\htdocs\ecommerce\web\views\template.php on line 76
-[12-Nov-2024 02:28:19 Europe/Berlin] PHP Warning:  Attempt to read property "background" on null in C:\xampp\htdocs\ecommerce\web\views\template.php on line 81
-[12-Nov-2024 02:28:19 Europe/Berlin] PHP Warning:  Attempt to read property "color" on null in C:\xampp\htdocs\ecommerce\web\views\template.php on line 82
-[12-Nov-2024 02:31:08 Europe/Berlin] PHP Warning:  Attempt to read property "top" on null in C:\xampp\htdocs\ecommerce\web\views\template.php on line 32
-[12-Nov-2024 02:31:08 Europe/Berlin] PHP Warning:  Attempt to read property "background" on null in C:\xampp\htdocs\ecommerce\web\views\template.php on line 77
-[12-Nov-2024 02:31:08 Europe/Berlin] PHP Warning:  Attempt to read property "color" on null in C:\xampp\htdocs\ecommerce\web\views\template.php on line 78
-[12-Nov-2024 02:31:08 Europe/Berlin] PHP Warning:  Attempt to read property "background" on null in C:\xampp\htdocs\ecommerce\web\views\template.php on line 83
-[12-Nov-2024 02:31:08 Europe/Berlin] PHP Warning:  Attempt to read property "color" on null in C:\xampp\htdocs\ecommerce\web\views\template.php on line 84
-[12-Nov-2024 02:31:33 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: json_decode(): Argument #1 ($json) must be of type string, stdClass given in C:\xampp\htdocs\ecommerce\web\views\template.php:33
-Stack trace:
-#0 C:\xampp\htdocs\ecommerce\web\views\template.php(33): json_decode(Object(stdClass))
-#1 C:\xampp\htdocs\ecommerce\web\controllers\template.controller.php(9): include('C:\\xampp\\htdocs...')
-#2 C:\xampp\htdocs\ecommerce\web\index.php(16): templateController->index()
-#3 {main}
-  thrown in C:\xampp\htdocs\ecommerce\web\views\template.php on line 33
-[12-Nov-2024 02:31:59 Europe/Berlin] PHP Warning:  Attempt to read property "top" on null in C:\xampp\htdocs\ecommerce\web\views\template.php on line 32
-[12-Nov-2024 02:31:59 Europe/Berlin] PHP Warning:  Attempt to read property "background" on null in C:\xampp\htdocs\ecommerce\web\views\template.php on line 77
-[12-Nov-2024 02:31:59 Europe/Berlin] PHP Warning:  Attempt to read property "color" on null in C:\xampp\htdocs\ecommerce\web\views\template.php on line 78
-[12-Nov-2024 02:31:59 Europe/Berlin] PHP Warning:  Attempt to read property "background" on null in C:\xampp\htdocs\ecommerce\web\views\template.php on line 83
-[12-Nov-2024 02:31:59 Europe/Berlin] PHP Warning:  Attempt to read property "color" on null in C:\xampp\htdocs\ecommerce\web\views\template.php on line 84
-[12-Nov-2024 02:32:54 Europe/Berlin] PHP Warning:  Attempt to read property "top" on string in C:\xampp\htdocs\ecommerce\web\views\template.php on line 32
-[12-Nov-2024 02:32:54 Europe/Berlin] PHP Warning:  Attempt to read property "background" on null in C:\xampp\htdocs\ecommerce\web\views\template.php on line 77
-[12-Nov-2024 02:32:54 Europe/Berlin] PHP Warning:  Attempt to read property "color" on null in C:\xampp\htdocs\ecommerce\web\views\template.php on line 78
-[12-Nov-2024 02:32:54 Europe/Berlin] PHP Warning:  Attempt to read property "background" on null in C:\xampp\htdocs\ecommerce\web\views\template.php on line 83
-[12-Nov-2024 02:32:54 Europe/Berlin] PHP Warning:  Attempt to read property "color" on null in C:\xampp\htdocs\ecommerce\web\views\template.php on line 84
-[12-Nov-2024 02:33:21 Europe/Berlin] PHP Warning:  Attempt to read property "top" on string in C:\xampp\htdocs\ecommerce\web\views\template.php on line 32
-[12-Nov-2024 02:33:21 Europe/Berlin] PHP Warning:  Attempt to read property "background" on null in C:\xampp\htdocs\ecommerce\web\views\template.php on line 77
-[12-Nov-2024 02:33:21 Europe/Berlin] PHP Warning:  Attempt to read property "color" on null in C:\xampp\htdocs\ecommerce\web\views\template.php on line 78
-[12-Nov-2024 02:33:21 Europe/Berlin] PHP Warning:  Attempt to read property "background" on null in C:\xampp\htdocs\ecommerce\web\views\template.php on line 83
-[12-Nov-2024 02:33:21 Europe/Berlin] PHP Warning:  Attempt to read property "color" on null in C:\xampp\htdocs\ecommerce\web\views\template.php on line 84
-[12-Nov-2024 02:33:26 Europe/Berlin] PHP Warning:  Undefined variable $topColor in C:\xampp\htdocs\ecommerce\web\views\template.php on line 33
-[12-Nov-2024 02:33:26 Europe/Berlin] PHP Warning:  Undefined variable $topColor in C:\xampp\htdocs\ecommerce\web\views\template.php on line 77
-[12-Nov-2024 02:33:26 Europe/Berlin] PHP Warning:  Attempt to read property "background" on null in C:\xampp\htdocs\ecommerce\web\views\template.php on line 77
-[12-Nov-2024 02:33:26 Europe/Berlin] PHP Warning:  Undefined variable $topColor in C:\xampp\htdocs\ecommerce\web\views\template.php on line 78
-[12-Nov-2024 02:33:26 Europe/Berlin] PHP Warning:  Attempt to read property "color" on null in C:\xampp\htdocs\ecommerce\web\views\template.php on line 78
-[12-Nov-2024 02:33:26 Europe/Berlin] PHP Warning:  Undefined variable $topColor in C:\xampp\htdocs\ecommerce\web\views\template.php on line 83
-[12-Nov-2024 02:33:26 Europe/Berlin] PHP Warning:  Attempt to read property "background" on null in C:\xampp\htdocs\ecommerce\web\views\template.php on line 83
-[12-Nov-2024 02:33:26 Europe/Berlin] PHP Warning:  Undefined variable $topColor in C:\xampp\htdocs\ecommerce\web\views\template.php on line 84
-[12-Nov-2024 02:33:26 Europe/Berlin] PHP Warning:  Attempt to read property "color" on null in C:\xampp\htdocs\ecommerce\web\views\template.php on line 84
-[12-Nov-2024 02:33:35 Europe/Berlin] PHP Warning:  Undefined variable $topColor in C:\xampp\htdocs\ecommerce\web\views\template.php on line 77
-[12-Nov-2024 02:33:35 Europe/Berlin] PHP Warning:  Attempt to read property "background" on null in C:\xampp\htdocs\ecommerce\web\views\template.php on line 77
-[12-Nov-2024 02:33:35 Europe/Berlin] PHP Warning:  Undefined variable $topColor in C:\xampp\htdocs\ecommerce\web\views\template.php on line 78
-[12-Nov-2024 02:33:35 Europe/Berlin] PHP Warning:  Attempt to read property "color" on null in C:\xampp\htdocs\ecommerce\web\views\template.php on line 78
-[12-Nov-2024 02:33:35 Europe/Berlin] PHP Warning:  Undefined variable $topColor in C:\xampp\htdocs\ecommerce\web\views\template.php on line 83
-[12-Nov-2024 02:33:35 Europe/Berlin] PHP Warning:  Attempt to read property "background" on null in C:\xampp\htdocs\ecommerce\web\views\template.php on line 83
-[12-Nov-2024 02:33:35 Europe/Berlin] PHP Warning:  Undefined variable $topColor in C:\xampp\htdocs\ecommerce\web\views\template.php on line 84
-[12-Nov-2024 02:33:35 Europe/Berlin] PHP Warning:  Attempt to read property "color" on null in C:\xampp\htdocs\ecommerce\web\views\template.php on line 84
-[12-Nov-2024 02:35:02 Europe/Berlin] PHP Warning:  Attempt to read property "top" on string in C:\xampp\htdocs\ecommerce\web\views\template.php on line 32
-[12-Nov-2024 02:35:02 Europe/Berlin] PHP Warning:  Attempt to read property "background" on null in C:\xampp\htdocs\ecommerce\web\views\template.php on line 77
-[12-Nov-2024 02:35:02 Europe/Berlin] PHP Warning:  Attempt to read property "color" on null in C:\xampp\htdocs\ecommerce\web\views\template.php on line 78
-[12-Nov-2024 02:35:02 Europe/Berlin] PHP Warning:  Attempt to read property "background" on null in C:\xampp\htdocs\ecommerce\web\views\template.php on line 83
-[12-Nov-2024 02:35:02 Europe/Berlin] PHP Warning:  Attempt to read property "color" on null in C:\xampp\htdocs\ecommerce\web\views\template.php on line 84
-[12-Nov-2024 02:35:45 Europe/Berlin] PHP Warning:  Undefined property: stdClass::$template in C:\xampp\htdocs\ecommerce\web\views\template.php on line 29
-[12-Nov-2024 02:35:45 Europe/Berlin] PHP Warning:  Attempt to read property "top" on string in C:\xampp\htdocs\ecommerce\web\views\template.php on line 32
-[12-Nov-2024 02:35:45 Europe/Berlin] PHP Warning:  Attempt to read property "background" on null in C:\xampp\htdocs\ecommerce\web\views\template.php on line 77
-[12-Nov-2024 02:35:45 Europe/Berlin] PHP Warning:  Attempt to read property "color" on null in C:\xampp\htdocs\ecommerce\web\views\template.php on line 78
-[12-Nov-2024 02:35:45 Europe/Berlin] PHP Warning:  Attempt to read property "background" on null in C:\xampp\htdocs\ecommerce\web\views\template.php on line 83
-[12-Nov-2024 02:35:45 Europe/Berlin] PHP Warning:  Attempt to read property "color" on null in C:\xampp\htdocs\ecommerce\web\views\template.php on line 84
-[12-Nov-2024 02:35:57 Europe/Berlin] PHP Warning:  Attempt to read property "top" on string in C:\xampp\htdocs\ecommerce\web\views\template.php on line 32
-[12-Nov-2024 02:35:57 Europe/Berlin] PHP Warning:  Attempt to read property "background" on null in C:\xampp\htdocs\ecommerce\web\views\template.php on line 77
-[12-Nov-2024 02:35:57 Europe/Berlin] PHP Warning:  Attempt to read property "color" on null in C:\xampp\htdocs\ecommerce\web\views\template.php on line 78
-[12-Nov-2024 02:35:57 Europe/Berlin] PHP Warning:  Attempt to read property "background" on null in C:\xampp\htdocs\ecommerce\web\views\template.php on line 83
-[12-Nov-2024 02:35:57 Europe/Berlin] PHP Warning:  Attempt to read property "color" on null in C:\xampp\htdocs\ecommerce\web\views\template.php on line 84
-[12-Nov-2024 02:38:37 Europe/Berlin] PHP Warning:  Attempt to read property "top" on string in C:\xampp\htdocs\ecommerce\web\views\template.php on line 32
-[12-Nov-2024 02:38:37 Europe/Berlin] PHP Warning:  Attempt to read property "template" on null in C:\xampp\htdocs\ecommerce\web\views\template.php on line 35
-[12-Nov-2024 02:38:37 Europe/Berlin] PHP Warning:  Attempt to read property "background" on null in C:\xampp\htdocs\ecommerce\web\views\template.php on line 77
-[12-Nov-2024 02:38:37 Europe/Berlin] PHP Warning:  Attempt to read property "color" on null in C:\xampp\htdocs\ecommerce\web\views\template.php on line 78
-[12-Nov-2024 02:38:37 Europe/Berlin] PHP Warning:  Attempt to read property "background" on null in C:\xampp\htdocs\ecommerce\web\views\template.php on line 83
-[12-Nov-2024 02:38:37 Europe/Berlin] PHP Warning:  Attempt to read property "color" on null in C:\xampp\htdocs\ecommerce\web\views\template.php on line 84
-[12-Nov-2024 02:39:44 Europe/Berlin] PHP Warning:  Attempt to read property "top" on null in C:\xampp\htdocs\ecommerce\web\views\template.php on line 32
-[12-Nov-2024 02:39:44 Europe/Berlin] PHP Warning:  Attempt to read property "template" on null in C:\xampp\htdocs\ecommerce\web\views\template.php on line 35
-[12-Nov-2024 02:39:44 Europe/Berlin] PHP Warning:  Attempt to read property "background" on null in C:\xampp\htdocs\ecommerce\web\views\template.php on line 77
-[12-Nov-2024 02:39:44 Europe/Berlin] PHP Warning:  Attempt to read property "color" on null in C:\xampp\htdocs\ecommerce\web\views\template.php on line 78
-[12-Nov-2024 02:39:44 Europe/Berlin] PHP Warning:  Attempt to read property "background" on null in C:\xampp\htdocs\ecommerce\web\views\template.php on line 83
-[12-Nov-2024 02:39:44 Europe/Berlin] PHP Warning:  Attempt to read property "color" on null in C:\xampp\htdocs\ecommerce\web\views\template.php on line 84
-[12-Nov-2024 02:39:58 Europe/Berlin] PHP Warning:  Attempt to read property "top" on null in C:\xampp\htdocs\ecommerce\web\views\template.php on line 32
-[12-Nov-2024 02:39:58 Europe/Berlin] PHP Warning:  Attempt to read property "template" on null in C:\xampp\htdocs\ecommerce\web\views\template.php on line 35
-[12-Nov-2024 02:39:58 Europe/Berlin] PHP Warning:  Attempt to read property "background" on null in C:\xampp\htdocs\ecommerce\web\views\template.php on line 77
-[12-Nov-2024 02:39:58 Europe/Berlin] PHP Warning:  Attempt to read property "color" on null in C:\xampp\htdocs\ecommerce\web\views\template.php on line 78
-[12-Nov-2024 02:39:58 Europe/Berlin] PHP Warning:  Attempt to read property "background" on null in C:\xampp\htdocs\ecommerce\web\views\template.php on line 83
-[12-Nov-2024 02:39:58 Europe/Berlin] PHP Warning:  Attempt to read property "color" on null in C:\xampp\htdocs\ecommerce\web\views\template.php on line 84
-[12-Nov-2024 03:10:49 Europe/Berlin] PHP Parse error:  syntax error, unexpected end of file in C:\xampp\htdocs\ecommerce\web\views\modules\top.php on line 58
-[12-Nov-2024 03:13:03 Europe/Berlin] PHP Parse error:  syntax error, unexpected end of file in C:\xampp\htdocs\ecommerce\web\views\modules\top.php on line 55
-[12-Nov-2024 03:14:22 Europe/Berlin] PHP Warning:  Attempt to read property "url_social" on int in C:\xampp\htdocs\ecommerce\web\views\modules\top.php on line 24
-[12-Nov-2024 03:14:22 Europe/Berlin] PHP Warning:  Attempt to read property "icon_social" on int in C:\xampp\htdocs\ecommerce\web\views\modules\top.php on line 25
-[12-Nov-2024 03:14:22 Europe/Berlin] PHP Warning:  Attempt to read property "color_social" on int in C:\xampp\htdocs\ecommerce\web\views\modules\top.php on line 25
-[12-Nov-2024 03:14:22 Europe/Berlin] PHP Warning:  Attempt to read property "url_social" on string in C:\xampp\htdocs\ecommerce\web\views\modules\top.php on line 24
-[12-Nov-2024 03:14:22 Europe/Berlin] PHP Warning:  Attempt to read property "icon_social" on string in C:\xampp\htdocs\ecommerce\web\views\modules\top.php on line 25
-[12-Nov-2024 03:14:22 Europe/Berlin] PHP Warning:  Attempt to read property "color_social" on string in C:\xampp\htdocs\ecommerce\web\views\modules\top.php on line 25
-[12-Nov-2024 03:14:22 Europe/Berlin] PHP Warning:  Attempt to read property "url_social" on string in C:\xampp\htdocs\ecommerce\web\views\modules\top.php on line 24
-[12-Nov-2024 03:14:22 Europe/Berlin] PHP Warning:  Attempt to read property "icon_social" on string in C:\xampp\htdocs\ecommerce\web\views\modules\top.php on line 25
-[12-Nov-2024 03:14:22 Europe/Berlin] PHP Warning:  Attempt to read property "color_social" on string in C:\xampp\htdocs\ecommerce\web\views\modules\top.php on line 25
-[12-Nov-2024 03:14:22 Europe/Berlin] PHP Warning:  Attempt to read property "url_social" on string in C:\xampp\htdocs\ecommerce\web\views\modules\top.php on line 24
-[12-Nov-2024 03:14:22 Europe/Berlin] PHP Warning:  Attempt to read property "icon_social" on string in C:\xampp\htdocs\ecommerce\web\views\modules\top.php on line 25
-[12-Nov-2024 03:14:22 Europe/Berlin] PHP Warning:  Attempt to read property "color_social" on string in C:\xampp\htdocs\ecommerce\web\views\modules\top.php on line 25
-[12-Nov-2024 03:14:22 Europe/Berlin] PHP Warning:  Attempt to read property "url_social" on string in C:\xampp\htdocs\ecommerce\web\views\modules\top.php on line 24
-[12-Nov-2024 03:14:22 Europe/Berlin] PHP Warning:  Attempt to read property "icon_social" on string in C:\xampp\htdocs\ecommerce\web\views\modules\top.php on line 25
-[12-Nov-2024 03:14:22 Europe/Berlin] PHP Warning:  Attempt to read property "color_social" on string in C:\xampp\htdocs\ecommerce\web\views\modules\top.php on line 25
-[12-Nov-2024 03:14:22 Europe/Berlin] PHP Warning:  Attempt to read property "url_social" on string in C:\xampp\htdocs\ecommerce\web\views\modules\top.php on line 24
-[12-Nov-2024 03:14:22 Europe/Berlin] PHP Warning:  Attempt to read property "icon_social" on string in C:\xampp\htdocs\ecommerce\web\views\modules\top.php on line 25
-[12-Nov-2024 03:14:22 Europe/Berlin] PHP Warning:  Attempt to read property "color_social" on string in C:\xampp\htdocs\ecommerce\web\views\modules\top.php on line 25
-[12-Nov-2024 03:14:22 Europe/Berlin] PHP Warning:  Attempt to read property "url_social" on string in C:\xampp\htdocs\ecommerce\web\views\modules\top.php on line 24
-[12-Nov-2024 03:14:22 Europe/Berlin] PHP Warning:  Attempt to read property "icon_social" on string in C:\xampp\htdocs\ecommerce\web\views\modules\top.php on line 25
-[12-Nov-2024 03:14:22 Europe/Berlin] PHP Warning:  Attempt to read property "color_social" on string in C:\xampp\htdocs\ecommerce\web\views\modules\top.php on line 25
-[12-Nov-2024 03:15:30 Europe/Berlin] PHP Warning:  Attempt to read property "url_social" on int in C:\xampp\htdocs\ecommerce\web\views\modules\top.php on line 24
-[12-Nov-2024 03:15:30 Europe/Berlin] PHP Warning:  Attempt to read property "icon_social" on int in C:\xampp\htdocs\ecommerce\web\views\modules\top.php on line 25
-[12-Nov-2024 03:15:30 Europe/Berlin] PHP Warning:  Attempt to read property "color_social" on int in C:\xampp\htdocs\ecommerce\web\views\modules\top.php on line 25
-[12-Nov-2024 03:15:30 Europe/Berlin] PHP Warning:  Attempt to read property "url_social" on string in C:\xampp\htdocs\ecommerce\web\views\modules\top.php on line 24
-[12-Nov-2024 03:15:30 Europe/Berlin] PHP Warning:  Attempt to read property "icon_social" on string in C:\xampp\htdocs\ecommerce\web\views\modules\top.php on line 25
-[12-Nov-2024 03:15:30 Europe/Berlin] PHP Warning:  Attempt to read property "color_social" on string in C:\xampp\htdocs\ecommerce\web\views\modules\top.php on line 25
-[12-Nov-2024 03:15:30 Europe/Berlin] PHP Warning:  Attempt to read property "url_social" on string in C:\xampp\htdocs\ecommerce\web\views\modules\top.php on line 24
-[12-Nov-2024 03:15:30 Europe/Berlin] PHP Warning:  Attempt to read property "icon_social" on string in C:\xampp\htdocs\ecommerce\web\views\modules\top.php on line 25
-[12-Nov-2024 03:15:30 Europe/Berlin] PHP Warning:  Attempt to read property "color_social" on string in C:\xampp\htdocs\ecommerce\web\views\modules\top.php on line 25
-[12-Nov-2024 03:15:30 Europe/Berlin] PHP Warning:  Attempt to read property "url_social" on string in C:\xampp\htdocs\ecommerce\web\views\modules\top.php on line 24
-[12-Nov-2024 03:15:30 Europe/Berlin] PHP Warning:  Attempt to read property "icon_social" on string in C:\xampp\htdocs\ecommerce\web\views\modules\top.php on line 25
-[12-Nov-2024 03:15:30 Europe/Berlin] PHP Warning:  Attempt to read property "color_social" on string in C:\xampp\htdocs\ecommerce\web\views\modules\top.php on line 25
-[12-Nov-2024 03:15:30 Europe/Berlin] PHP Warning:  Attempt to read property "url_social" on string in C:\xampp\htdocs\ecommerce\web\views\modules\top.php on line 24
-[12-Nov-2024 03:15:30 Europe/Berlin] PHP Warning:  Attempt to read property "icon_social" on string in C:\xampp\htdocs\ecommerce\web\views\modules\top.php on line 25
-[12-Nov-2024 03:15:30 Europe/Berlin] PHP Warning:  Attempt to read property "color_social" on string in C:\xampp\htdocs\ecommerce\web\views\modules\top.php on line 25
-[12-Nov-2024 03:15:30 Europe/Berlin] PHP Warning:  Attempt to read property "url_social" on string in C:\xampp\htdocs\ecommerce\web\views\modules\top.php on line 24
-[12-Nov-2024 03:15:30 Europe/Berlin] PHP Warning:  Attempt to read property "icon_social" on string in C:\xampp\htdocs\ecommerce\web\views\modules\top.php on line 25
-[12-Nov-2024 03:15:30 Europe/Berlin] PHP Warning:  Attempt to read property "color_social" on string in C:\xampp\htdocs\ecommerce\web\views\modules\top.php on line 25
-[12-Nov-2024 03:15:30 Europe/Berlin] PHP Warning:  Attempt to read property "url_social" on string in C:\xampp\htdocs\ecommerce\web\views\modules\top.php on line 24
-[12-Nov-2024 03:15:30 Europe/Berlin] PHP Warning:  Attempt to read property "icon_social" on string in C:\xampp\htdocs\ecommerce\web\views\modules\top.php on line 25
-[12-Nov-2024 03:15:30 Europe/Berlin] PHP Warning:  Attempt to read property "color_social" on string in C:\xampp\htdocs\ecommerce\web\views\modules\top.php on line 25
+[16-Nov-2024 16:56:37 Europe/Berlin] PHP Warning:  Attempt to read property "status" on null in C:\xampp\htdocs\ecommerce\web\views\template.php on line 27
+[16-Nov-2024 16:56:37 Europe/Berlin] PHP Warning:  Attempt to read property "keywords_template" on null in C:\xampp\htdocs\ecommerce\web\views\template.php on line 34
+[16-Nov-2024 16:56:37 Europe/Berlin] PHP Warning:  foreach() argument must be of type array|object, null given in C:\xampp\htdocs\ecommerce\web\views\template.php on line 34
+[16-Nov-2024 16:56:37 Europe/Berlin] PHP Warning:  Attempt to read property "fonts_template" on null in C:\xampp\htdocs\ecommerce\web\views\template.php on line 41
+[16-Nov-2024 16:56:37 Europe/Berlin] PHP Warning:  Attempt to read property "fontFamily" on null in C:\xampp\htdocs\ecommerce\web\views\template.php on line 41
+[16-Nov-2024 16:56:37 Europe/Berlin] PHP Warning:  Attempt to read property "fonts_template" on null in C:\xampp\htdocs\ecommerce\web\views\template.php on line 42
+[16-Nov-2024 16:56:37 Europe/Berlin] PHP Warning:  Attempt to read property "fontBody" on null in C:\xampp\htdocs\ecommerce\web\views\template.php on line 42
+[16-Nov-2024 16:56:37 Europe/Berlin] PHP Warning:  Attempt to read property "fonts_template" on null in C:\xampp\htdocs\ecommerce\web\views\template.php on line 43
+[16-Nov-2024 16:56:37 Europe/Berlin] PHP Warning:  Attempt to read property "fontSlide" on null in C:\xampp\htdocs\ecommerce\web\views\template.php on line 43
+[16-Nov-2024 16:56:37 Europe/Berlin] PHP Warning:  Attempt to read property "colors_template" on null in C:\xampp\htdocs\ecommerce\web\views\template.php on line 48
+[16-Nov-2024 16:56:37 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\ecommerce\web\views\template.php on line 48
+[16-Nov-2024 16:56:37 Europe/Berlin] PHP Warning:  Attempt to read property "top" on null in C:\xampp\htdocs\ecommerce\web\views\template.php on line 48
+[16-Nov-2024 16:56:37 Europe/Berlin] PHP Warning:  Attempt to read property "colors_template" on null in C:\xampp\htdocs\ecommerce\web\views\template.php on line 49
+[16-Nov-2024 16:56:37 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\ecommerce\web\views\template.php on line 49
+[16-Nov-2024 16:56:37 Europe/Berlin] PHP Warning:  Attempt to read property "template" on null in C:\xampp\htdocs\ecommerce\web\views\template.php on line 49
+[16-Nov-2024 16:56:37 Europe/Berlin] PHP Warning:  Attempt to read property "title_template" on null in C:\xampp\htdocs\ecommerce\web\views\template.php on line 61
+[16-Nov-2024 16:56:37 Europe/Berlin] PHP Warning:  Attempt to read property "description_template" on null in C:\xampp\htdocs\ecommerce\web\views\template.php on line 62
+[16-Nov-2024 16:56:37 Europe/Berlin] PHP Warning:  Attempt to read property "id_template" on null in C:\xampp\htdocs\ecommerce\web\views\template.php on line 65
+[16-Nov-2024 16:56:37 Europe/Berlin] PHP Warning:  Attempt to read property "icon_template" on null in C:\xampp\htdocs\ecommerce\web\views\template.php on line 65
+[16-Nov-2024 16:56:37 Europe/Berlin] PHP Warning:  Attempt to read property "background" on null in C:\xampp\htdocs\ecommerce\web\views\template.php on line 91
+[16-Nov-2024 16:56:37 Europe/Berlin] PHP Warning:  Attempt to read property "color" on null in C:\xampp\htdocs\ecommerce\web\views\template.php on line 92
+[16-Nov-2024 16:56:37 Europe/Berlin] PHP Warning:  Attempt to read property "background" on null in C:\xampp\htdocs\ecommerce\web\views\template.php on line 97
+[16-Nov-2024 16:56:37 Europe/Berlin] PHP Warning:  Attempt to read property "color" on null in C:\xampp\htdocs\ecommerce\web\views\template.php on line 98
+[16-Nov-2024 16:56:37 Europe/Berlin] PHP Warning:  Attempt to read property "status" on null in C:\xampp\htdocs\ecommerce\web\views\modules\top.php on line 8
+[16-Nov-2024 16:56:37 Europe/Berlin] PHP Warning:  foreach() argument must be of type array|object, null given in C:\xampp\htdocs\ecommerce\web\views\modules\top.php on line 22
+[16-Nov-2024 16:56:37 Europe/Berlin] PHP Warning:  Attempt to read property "id_template" on null in C:\xampp\htdocs\ecommerce\web\views\modules\nav-bar.php on line 11
+[16-Nov-2024 16:56:37 Europe/Berlin] PHP Warning:  Attempt to read property "logo_template" on null in C:\xampp\htdocs\ecommerce\web\views\modules\nav-bar.php on line 11
+[16-Nov-2024 16:56:37 Europe/Berlin] PHP Warning:  foreach() argument must be of type array|object, null given in C:\xampp\htdocs\ecommerce\web\views\modules\footer.php on line 130
+[16-Nov-2024 16:56:38 Europe/Berlin] PHP Warning:  Attempt to read property "status" on null in C:\xampp\htdocs\ecommerce\web\views\template.php on line 27
+[16-Nov-2024 16:56:38 Europe/Berlin] PHP Warning:  Attempt to read property "keywords_template" on null in C:\xampp\htdocs\ecommerce\web\views\template.php on line 34
+[16-Nov-2024 16:56:38 Europe/Berlin] PHP Warning:  foreach() argument must be of type array|object, null given in C:\xampp\htdocs\ecommerce\web\views\template.php on line 34
+[16-Nov-2024 16:56:38 Europe/Berlin] PHP Warning:  Attempt to read property "fonts_template" on null in C:\xampp\htdocs\ecommerce\web\views\template.php on line 41
+[16-Nov-2024 16:56:38 Europe/Berlin] PHP Warning:  Attempt to read property "fontFamily" on null in C:\xampp\htdocs\ecommerce\web\views\template.php on line 41
+[16-Nov-2024 16:56:38 Europe/Berlin] PHP Warning:  Attempt to read property "fonts_template" on null in C:\xampp\htdocs\ecommerce\web\views\template.php on line 42
+[16-Nov-2024 16:56:38 Europe/Berlin] PHP Warning:  Attempt to read property "fontBody" on null in C:\xampp\htdocs\ecommerce\web\views\template.php on line 42
+[16-Nov-2024 16:56:38 Europe/Berlin] PHP Warning:  Attempt to read property "fonts_template" on null in C:\xampp\htdocs\ecommerce\web\views\template.php on line 43
+[16-Nov-2024 16:56:38 Europe/Berlin] PHP Warning:  Attempt to read property "fontSlide" on null in C:\xampp\htdocs\ecommerce\web\views\template.php on line 43
+[16-Nov-2024 16:56:38 Europe/Berlin] PHP Warning:  Attempt to read property "colors_template" on null in C:\xampp\htdocs\ecommerce\web\views\template.php on line 48
+[16-Nov-2024 16:56:38 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\ecommerce\web\views\template.php on line 48
+[16-Nov-2024 16:56:38 Europe/Berlin] PHP Warning:  Attempt to read property "top" on null in C:\xampp\htdocs\ecommerce\web\views\template.php on line 48
+[16-Nov-2024 16:56:38 Europe/Berlin] PHP Warning:  Attempt to read property "colors_template" on null in C:\xampp\htdocs\ecommerce\web\views\template.php on line 49
+[16-Nov-2024 16:56:38 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\ecommerce\web\views\template.php on line 49
+[16-Nov-2024 16:56:38 Europe/Berlin] PHP Warning:  Attempt to read property "template" on null in C:\xampp\htdocs\ecommerce\web\views\template.php on line 49
+[16-Nov-2024 16:56:38 Europe/Berlin] PHP Warning:  Attempt to read property "title_template" on null in C:\xampp\htdocs\ecommerce\web\views\template.php on line 61
+[16-Nov-2024 16:56:38 Europe/Berlin] PHP Warning:  Attempt to read property "description_template" on null in C:\xampp\htdocs\ecommerce\web\views\template.php on line 62
+[16-Nov-2024 16:56:38 Europe/Berlin] PHP Warning:  Attempt to read property "id_template" on null in C:\xampp\htdocs\ecommerce\web\views\template.php on line 65
+[16-Nov-2024 16:56:38 Europe/Berlin] PHP Warning:  Attempt to read property "icon_template" on null in C:\xampp\htdocs\ecommerce\web\views\template.php on line 65
+[16-Nov-2024 16:56:38 Europe/Berlin] PHP Warning:  Attempt to read property "background" on null in C:\xampp\htdocs\ecommerce\web\views\template.php on line 91
+[16-Nov-2024 16:56:38 Europe/Berlin] PHP Warning:  Attempt to read property "color" on null in C:\xampp\htdocs\ecommerce\web\views\template.php on line 92
+[16-Nov-2024 16:56:38 Europe/Berlin] PHP Warning:  Attempt to read property "background" on null in C:\xampp\htdocs\ecommerce\web\views\template.php on line 97
+[16-Nov-2024 16:56:38 Europe/Berlin] PHP Warning:  Attempt to read property "color" on null in C:\xampp\htdocs\ecommerce\web\views\template.php on line 98
+[16-Nov-2024 16:56:38 Europe/Berlin] PHP Warning:  Attempt to read property "status" on null in C:\xampp\htdocs\ecommerce\web\views\modules\top.php on line 8
+[16-Nov-2024 16:56:38 Europe/Berlin] PHP Warning:  foreach() argument must be of type array|object, null given in C:\xampp\htdocs\ecommerce\web\views\modules\top.php on line 22
+[16-Nov-2024 16:56:38 Europe/Berlin] PHP Warning:  Attempt to read property "id_template" on null in C:\xampp\htdocs\ecommerce\web\views\modules\nav-bar.php on line 11
+[16-Nov-2024 16:56:38 Europe/Berlin] PHP Warning:  Attempt to read property "logo_template" on null in C:\xampp\htdocs\ecommerce\web\views\modules\nav-bar.php on line 11
+[16-Nov-2024 16:56:38 Europe/Berlin] PHP Warning:  foreach() argument must be of type array|object, null given in C:\xampp\htdocs\ecommerce\web\views\modules\footer.php on line 130
+[16-Nov-2024 16:58:15 Europe/Berlin] PHP Warning:  Attempt to read property "status" on null in C:\xampp\htdocs\ecommerce\web\views\template.php on line 27
+[16-Nov-2024 16:58:15 Europe/Berlin] PHP Warning:  Attempt to read property "keywords_template" on null in C:\xampp\htdocs\ecommerce\web\views\template.php on line 34
+[16-Nov-2024 16:58:15 Europe/Berlin] PHP Warning:  foreach() argument must be of type array|object, null given in C:\xampp\htdocs\ecommerce\web\views\template.php on line 34
+[16-Nov-2024 16:58:15 Europe/Berlin] PHP Warning:  Attempt to read property "fonts_template" on null in C:\xampp\htdocs\ecommerce\web\views\template.php on line 41
+[16-Nov-2024 16:58:15 Europe/Berlin] PHP Warning:  Attempt to read property "fontFamily" on null in C:\xampp\htdocs\ecommerce\web\views\template.php on line 41
+[16-Nov-2024 16:58:15 Europe/Berlin] PHP Warning:  Attempt to read property "fonts_template" on null in C:\xampp\htdocs\ecommerce\web\views\template.php on line 42
+[16-Nov-2024 16:58:15 Europe/Berlin] PHP Warning:  Attempt to read property "fontBody" on null in C:\xampp\htdocs\ecommerce\web\views\template.php on line 42
+[16-Nov-2024 16:58:15 Europe/Berlin] PHP Warning:  Attempt to read property "fonts_template" on null in C:\xampp\htdocs\ecommerce\web\views\template.php on line 43
+[16-Nov-2024 16:58:15 Europe/Berlin] PHP Warning:  Attempt to read property "fontSlide" on null in C:\xampp\htdocs\ecommerce\web\views\template.php on line 43
+[16-Nov-2024 16:58:15 Europe/Berlin] PHP Warning:  Attempt to read property "colors_template" on null in C:\xampp\htdocs\ecommerce\web\views\template.php on line 48
+[16-Nov-2024 16:58:15 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\ecommerce\web\views\template.php on line 48
+[16-Nov-2024 16:58:15 Europe/Berlin] PHP Warning:  Attempt to read property "top" on null in C:\xampp\htdocs\ecommerce\web\views\template.php on line 48
+[16-Nov-2024 16:58:15 Europe/Berlin] PHP Warning:  Attempt to read property "colors_template" on null in C:\xampp\htdocs\ecommerce\web\views\template.php on line 49
+[16-Nov-2024 16:58:15 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\ecommerce\web\views\template.php on line 49
+[16-Nov-2024 16:58:15 Europe/Berlin] PHP Warning:  Attempt to read property "template" on null in C:\xampp\htdocs\ecommerce\web\views\template.php on line 49
+[16-Nov-2024 16:58:15 Europe/Berlin] PHP Warning:  Attempt to read property "title_template" on null in C:\xampp\htdocs\ecommerce\web\views\template.php on line 61
+[16-Nov-2024 16:58:15 Europe/Berlin] PHP Warning:  Attempt to read property "description_template" on null in C:\xampp\htdocs\ecommerce\web\views\template.php on line 62
+[16-Nov-2024 16:58:15 Europe/Berlin] PHP Warning:  Attempt to read property "id_template" on null in C:\xampp\htdocs\ecommerce\web\views\template.php on line 65
+[16-Nov-2024 16:58:15 Europe/Berlin] PHP Warning:  Attempt to read property "icon_template" on null in C:\xampp\htdocs\ecommerce\web\views\template.php on line 65
+[16-Nov-2024 16:58:15 Europe/Berlin] PHP Warning:  Attempt to read property "background" on null in C:\xampp\htdocs\ecommerce\web\views\template.php on line 91
+[16-Nov-2024 16:58:15 Europe/Berlin] PHP Warning:  Attempt to read property "color" on null in C:\xampp\htdocs\ecommerce\web\views\template.php on line 92
+[16-Nov-2024 16:58:15 Europe/Berlin] PHP Warning:  Attempt to read property "background" on null in C:\xampp\htdocs\ecommerce\web\views\template.php on line 97
+[16-Nov-2024 16:58:15 Europe/Berlin] PHP Warning:  Attempt to read property "color" on null in C:\xampp\htdocs\ecommerce\web\views\template.php on line 98
+[16-Nov-2024 16:58:15 Europe/Berlin] PHP Warning:  Attempt to read property "status" on null in C:\xampp\htdocs\ecommerce\web\views\modules\top.php on line 8
+[16-Nov-2024 16:58:15 Europe/Berlin] PHP Warning:  foreach() argument must be of type array|object, null given in C:\xampp\htdocs\ecommerce\web\views\modules\top.php on line 22
+[16-Nov-2024 16:58:15 Europe/Berlin] PHP Warning:  Attempt to read property "id_template" on null in C:\xampp\htdocs\ecommerce\web\views\modules\nav-bar.php on line 11
+[16-Nov-2024 16:58:15 Europe/Berlin] PHP Warning:  Attempt to read property "logo_template" on null in C:\xampp\htdocs\ecommerce\web\views\modules\nav-bar.php on line 11
+[16-Nov-2024 16:58:15 Europe/Berlin] PHP Warning:  foreach() argument must be of type array|object, null given in C:\xampp\htdocs\ecommerce\web\views\modules\footer.php on line 130
+[16-Nov-2024 16:58:16 Europe/Berlin] PHP Warning:  Attempt to read property "status" on null in C:\xampp\htdocs\ecommerce\web\views\template.php on line 27
+[16-Nov-2024 16:58:16 Europe/Berlin] PHP Warning:  Attempt to read property "keywords_template" on null in C:\xampp\htdocs\ecommerce\web\views\template.php on line 34
+[16-Nov-2024 16:58:16 Europe/Berlin] PHP Warning:  foreach() argument must be of type array|object, null given in C:\xampp\htdocs\ecommerce\web\views\template.php on line 34
+[16-Nov-2024 16:58:16 Europe/Berlin] PHP Warning:  Attempt to read property "fonts_template" on null in C:\xampp\htdocs\ecommerce\web\views\template.php on line 41
+[16-Nov-2024 16:58:16 Europe/Berlin] PHP Warning:  Attempt to read property "fontFamily" on null in C:\xampp\htdocs\ecommerce\web\views\template.php on line 41
+[16-Nov-2024 16:58:16 Europe/Berlin] PHP Warning:  Attempt to read property "fonts_template" on null in C:\xampp\htdocs\ecommerce\web\views\template.php on line 42
+[16-Nov-2024 16:58:16 Europe/Berlin] PHP Warning:  Attempt to read property "fontBody" on null in C:\xampp\htdocs\ecommerce\web\views\template.php on line 42
+[16-Nov-2024 16:58:16 Europe/Berlin] PHP Warning:  Attempt to read property "fonts_template" on null in C:\xampp\htdocs\ecommerce\web\views\template.php on line 43
+[16-Nov-2024 16:58:16 Europe/Berlin] PHP Warning:  Attempt to read property "fontSlide" on null in C:\xampp\htdocs\ecommerce\web\views\template.php on line 43
+[16-Nov-2024 16:58:16 Europe/Berlin] PHP Warning:  Attempt to read property "colors_template" on null in C:\xampp\htdocs\ecommerce\web\views\template.php on line 48
+[16-Nov-2024 16:58:16 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\ecommerce\web\views\template.php on line 48
+[16-Nov-2024 16:58:16 Europe/Berlin] PHP Warning:  Attempt to read property "top" on null in C:\xampp\htdocs\ecommerce\web\views\template.php on line 48
+[16-Nov-2024 16:58:16 Europe/Berlin] PHP Warning:  Attempt to read property "colors_template" on null in C:\xampp\htdocs\ecommerce\web\views\template.php on line 49
+[16-Nov-2024 16:58:16 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\ecommerce\web\views\template.php on line 49
+[16-Nov-2024 16:58:16 Europe/Berlin] PHP Warning:  Attempt to read property "template" on null in C:\xampp\htdocs\ecommerce\web\views\template.php on line 49
+[16-Nov-2024 16:58:16 Europe/Berlin] PHP Warning:  Attempt to read property "title_template" on null in C:\xampp\htdocs\ecommerce\web\views\template.php on line 61
+[16-Nov-2024 16:58:16 Europe/Berlin] PHP Warning:  Attempt to read property "description_template" on null in C:\xampp\htdocs\ecommerce\web\views\template.php on line 62
+[16-Nov-2024 16:58:16 Europe/Berlin] PHP Warning:  Attempt to read property "id_template" on null in C:\xampp\htdocs\ecommerce\web\views\template.php on line 65
+[16-Nov-2024 16:58:16 Europe/Berlin] PHP Warning:  Attempt to read property "icon_template" on null in C:\xampp\htdocs\ecommerce\web\views\template.php on line 65
+[16-Nov-2024 16:58:16 Europe/Berlin] PHP Warning:  Attempt to read property "background" on null in C:\xampp\htdocs\ecommerce\web\views\template.php on line 91
+[16-Nov-2024 16:58:16 Europe/Berlin] PHP Warning:  Attempt to read property "color" on null in C:\xampp\htdocs\ecommerce\web\views\template.php on line 92
+[16-Nov-2024 16:58:16 Europe/Berlin] PHP Warning:  Attempt to read property "background" on null in C:\xampp\htdocs\ecommerce\web\views\template.php on line 97
+[16-Nov-2024 16:58:16 Europe/Berlin] PHP Warning:  Attempt to read property "color" on null in C:\xampp\htdocs\ecommerce\web\views\template.php on line 98
+[16-Nov-2024 16:58:16 Europe/Berlin] PHP Warning:  Attempt to read property "status" on null in C:\xampp\htdocs\ecommerce\web\views\modules\top.php on line 8
+[16-Nov-2024 16:58:16 Europe/Berlin] PHP Warning:  foreach() argument must be of type array|object, null given in C:\xampp\htdocs\ecommerce\web\views\modules\top.php on line 22
+[16-Nov-2024 16:58:16 Europe/Berlin] PHP Warning:  Attempt to read property "id_template" on null in C:\xampp\htdocs\ecommerce\web\views\modules\nav-bar.php on line 11
+[16-Nov-2024 16:58:16 Europe/Berlin] PHP Warning:  Attempt to read property "logo_template" on null in C:\xampp\htdocs\ecommerce\web\views\modules\nav-bar.php on line 11
+[16-Nov-2024 16:58:16 Europe/Berlin] PHP Warning:  foreach() argument must be of type array|object, null given in C:\xampp\htdocs\ecommerce\web\views\modules\footer.php on line 130
+[16-Nov-2024 16:58:57 Europe/Berlin] PHP Warning:  Attempt to read property "status" on null in C:\xampp\htdocs\ecommerce\web\views\template.php on line 27
+[16-Nov-2024 16:58:57 Europe/Berlin] PHP Warning:  Attempt to read property "keywords_template" on null in C:\xampp\htdocs\ecommerce\web\views\template.php on line 34
+[16-Nov-2024 16:58:57 Europe/Berlin] PHP Warning:  foreach() argument must be of type array|object, null given in C:\xampp\htdocs\ecommerce\web\views\template.php on line 34
+[16-Nov-2024 16:58:57 Europe/Berlin] PHP Warning:  Attempt to read property "fonts_template" on null in C:\xampp\htdocs\ecommerce\web\views\template.php on line 41
+[16-Nov-2024 16:58:57 Europe/Berlin] PHP Warning:  Attempt to read property "fontFamily" on null in C:\xampp\htdocs\ecommerce\web\views\template.php on line 41
+[16-Nov-2024 16:58:57 Europe/Berlin] PHP Warning:  Attempt to read property "fonts_template" on null in C:\xampp\htdocs\ecommerce\web\views\template.php on line 42
+[16-Nov-2024 16:58:57 Europe/Berlin] PHP Warning:  Attempt to read property "fontBody" on null in C:\xampp\htdocs\ecommerce\web\views\template.php on line 42
+[16-Nov-2024 16:58:57 Europe/Berlin] PHP Warning:  Attempt to read property "fonts_template" on null in C:\xampp\htdocs\ecommerce\web\views\template.php on line 43
+[16-Nov-2024 16:58:57 Europe/Berlin] PHP Warning:  Attempt to read property "fontSlide" on null in C:\xampp\htdocs\ecommerce\web\views\template.php on line 43
+[16-Nov-2024 16:58:57 Europe/Berlin] PHP Warning:  Attempt to read property "colors_template" on null in C:\xampp\htdocs\ecommerce\web\views\template.php on line 48
+[16-Nov-2024 16:58:57 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\ecommerce\web\views\template.php on line 48
+[16-Nov-2024 16:58:57 Europe/Berlin] PHP Warning:  Attempt to read property "top" on null in C:\xampp\htdocs\ecommerce\web\views\template.php on line 48
+[16-Nov-2024 16:58:57 Europe/Berlin] PHP Warning:  Attempt to read property "colors_template" on null in C:\xampp\htdocs\ecommerce\web\views\template.php on line 49
+[16-Nov-2024 16:58:57 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\ecommerce\web\views\template.php on line 49
+[16-Nov-2024 16:58:57 Europe/Berlin] PHP Warning:  Attempt to read property "template" on null in C:\xampp\htdocs\ecommerce\web\views\template.php on line 49
+[16-Nov-2024 16:58:57 Europe/Berlin] PHP Warning:  Attempt to read property "title_template" on null in C:\xampp\htdocs\ecommerce\web\views\template.php on line 61
+[16-Nov-2024 16:58:57 Europe/Berlin] PHP Warning:  Attempt to read property "description_template" on null in C:\xampp\htdocs\ecommerce\web\views\template.php on line 62
+[16-Nov-2024 16:58:57 Europe/Berlin] PHP Warning:  Attempt to read property "id_template" on null in C:\xampp\htdocs\ecommerce\web\views\template.php on line 65
+[16-Nov-2024 16:58:57 Europe/Berlin] PHP Warning:  Attempt to read property "icon_template" on null in C:\xampp\htdocs\ecommerce\web\views\template.php on line 65
+[16-Nov-2024 16:58:57 Europe/Berlin] PHP Warning:  Attempt to read property "background" on null in C:\xampp\htdocs\ecommerce\web\views\template.php on line 91
+[16-Nov-2024 16:58:57 Europe/Berlin] PHP Warning:  Attempt to read property "color" on null in C:\xampp\htdocs\ecommerce\web\views\template.php on line 92
+[16-Nov-2024 16:58:57 Europe/Berlin] PHP Warning:  Attempt to read property "background" on null in C:\xampp\htdocs\ecommerce\web\views\template.php on line 97
+[16-Nov-2024 16:58:57 Europe/Berlin] PHP Warning:  Attempt to read property "color" on null in C:\xampp\htdocs\ecommerce\web\views\template.php on line 98
+[16-Nov-2024 16:58:57 Europe/Berlin] PHP Warning:  Attempt to read property "status" on null in C:\xampp\htdocs\ecommerce\web\views\modules\top.php on line 8
+[16-Nov-2024 16:58:57 Europe/Berlin] PHP Warning:  foreach() argument must be of type array|object, null given in C:\xampp\htdocs\ecommerce\web\views\modules\top.php on line 22
+[16-Nov-2024 16:58:57 Europe/Berlin] PHP Warning:  Attempt to read property "id_template" on null in C:\xampp\htdocs\ecommerce\web\views\modules\nav-bar.php on line 11
+[16-Nov-2024 16:58:57 Europe/Berlin] PHP Warning:  Attempt to read property "logo_template" on null in C:\xampp\htdocs\ecommerce\web\views\modules\nav-bar.php on line 11
+[16-Nov-2024 16:58:57 Europe/Berlin] PHP Warning:  foreach() argument must be of type array|object, null given in C:\xampp\htdocs\ecommerce\web\views\modules\footer.php on line 130
+[16-Nov-2024 16:58:57 Europe/Berlin] PHP Warning:  Attempt to read property "status" on null in C:\xampp\htdocs\ecommerce\web\views\template.php on line 27
+[16-Nov-2024 16:58:57 Europe/Berlin] PHP Warning:  Attempt to read property "keywords_template" on null in C:\xampp\htdocs\ecommerce\web\views\template.php on line 34
+[16-Nov-2024 16:58:57 Europe/Berlin] PHP Warning:  foreach() argument must be of type array|object, null given in C:\xampp\htdocs\ecommerce\web\views\template.php on line 34
+[16-Nov-2024 16:58:57 Europe/Berlin] PHP Warning:  Attempt to read property "fonts_template" on null in C:\xampp\htdocs\ecommerce\web\views\template.php on line 41
+[16-Nov-2024 16:58:57 Europe/Berlin] PHP Warning:  Attempt to read property "fontFamily" on null in C:\xampp\htdocs\ecommerce\web\views\template.php on line 41
+[16-Nov-2024 16:58:57 Europe/Berlin] PHP Warning:  Attempt to read property "fonts_template" on null in C:\xampp\htdocs\ecommerce\web\views\template.php on line 42
+[16-Nov-2024 16:58:57 Europe/Berlin] PHP Warning:  Attempt to read property "fontBody" on null in C:\xampp\htdocs\ecommerce\web\views\template.php on line 42
+[16-Nov-2024 16:58:57 Europe/Berlin] PHP Warning:  Attempt to read property "fonts_template" on null in C:\xampp\htdocs\ecommerce\web\views\template.php on line 43
+[16-Nov-2024 16:58:57 Europe/Berlin] PHP Warning:  Attempt to read property "fontSlide" on null in C:\xampp\htdocs\ecommerce\web\views\template.php on line 43
+[16-Nov-2024 16:58:57 Europe/Berlin] PHP Warning:  Attempt to read property "colors_template" on null in C:\xampp\htdocs\ecommerce\web\views\template.php on line 48
+[16-Nov-2024 16:58:57 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\ecommerce\web\views\template.php on line 48
+[16-Nov-2024 16:58:57 Europe/Berlin] PHP Warning:  Attempt to read property "top" on null in C:\xampp\htdocs\ecommerce\web\views\template.php on line 48
+[16-Nov-2024 16:58:57 Europe/Berlin] PHP Warning:  Attempt to read property "colors_template" on null in C:\xampp\htdocs\ecommerce\web\views\template.php on line 49
+[16-Nov-2024 16:58:57 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\ecommerce\web\views\template.php on line 49
+[16-Nov-2024 16:58:57 Europe/Berlin] PHP Warning:  Attempt to read property "template" on null in C:\xampp\htdocs\ecommerce\web\views\template.php on line 49
+[16-Nov-2024 16:58:57 Europe/Berlin] PHP Warning:  Attempt to read property "title_template" on null in C:\xampp\htdocs\ecommerce\web\views\template.php on line 61
+[16-Nov-2024 16:58:57 Europe/Berlin] PHP Warning:  Attempt to read property "description_template" on null in C:\xampp\htdocs\ecommerce\web\views\template.php on line 62
+[16-Nov-2024 16:58:57 Europe/Berlin] PHP Warning:  Attempt to read property "id_template" on null in C:\xampp\htdocs\ecommerce\web\views\template.php on line 65
+[16-Nov-2024 16:58:57 Europe/Berlin] PHP Warning:  Attempt to read property "icon_template" on null in C:\xampp\htdocs\ecommerce\web\views\template.php on line 65
+[16-Nov-2024 16:58:57 Europe/Berlin] PHP Warning:  Attempt to read property "background" on null in C:\xampp\htdocs\ecommerce\web\views\template.php on line 91
+[16-Nov-2024 16:58:57 Europe/Berlin] PHP Warning:  Attempt to read property "color" on null in C:\xampp\htdocs\ecommerce\web\views\template.php on line 92
+[16-Nov-2024 16:58:57 Europe/Berlin] PHP Warning:  Attempt to read property "background" on null in C:\xampp\htdocs\ecommerce\web\views\template.php on line 97
+[16-Nov-2024 16:58:57 Europe/Berlin] PHP Warning:  Attempt to read property "color" on null in C:\xampp\htdocs\ecommerce\web\views\template.php on line 98
+[16-Nov-2024 16:58:57 Europe/Berlin] PHP Warning:  Attempt to read property "status" on null in C:\xampp\htdocs\ecommerce\web\views\modules\top.php on line 8
+[16-Nov-2024 16:58:57 Europe/Berlin] PHP Warning:  foreach() argument must be of type array|object, null given in C:\xampp\htdocs\ecommerce\web\views\modules\top.php on line 22
+[16-Nov-2024 16:58:57 Europe/Berlin] PHP Warning:  Attempt to read property "id_template" on null in C:\xampp\htdocs\ecommerce\web\views\modules\nav-bar.php on line 11
+[16-Nov-2024 16:58:57 Europe/Berlin] PHP Warning:  Attempt to read property "logo_template" on null in C:\xampp\htdocs\ecommerce\web\views\modules\nav-bar.php on line 11
+[16-Nov-2024 16:58:57 Europe/Berlin] PHP Warning:  foreach() argument must be of type array|object, null given in C:\xampp\htdocs\ecommerce\web\views\modules\footer.php on line 130
